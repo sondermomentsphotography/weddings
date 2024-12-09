@@ -484,161 +484,182 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 @font-face {
   font-family: 'hand';
-  src: url('Bastliga One.ttf') format('tff');
+  src: url('Bastliga One.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
-/* Center content and stack on mobile screens */
-/*@media (max-width: 768px) {*/
-/*  .f5-row {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    text-align: center;*/
-/*  }*/
-/*  .f5-col {*/
-/*    width: 100%; !* Ensure full width for all columns *!*/
-/*  }*/
-/*  .f5-hide-small {*/
-/*    display: none !important; !* Hide images for smaller screens *!*/
-/*  }*/
-/*}*/
-
-.f5-content img {
-  width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
+@font-face {
+  font-family: 'hand2';
+  src: url('Bastliga One.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
-@media (max-width: 768px) {
-  .f5-content {
-    width: 100%;  /* Ensure full width on mobile */
-    box-sizing: border-box; /* Make sure padding doesn't break layout */
-    margin: 0 auto; /* Ensure it's centered */
-  }
+/* Image and Video Styles */
+.f5-content img, video.f5-image {
+  width: 100%;
+  height: auto;
 }
 
-@media (max-width: 768px) {
-  .f5-row {
-    display: flex;
-    flex-direction: column;  /* Stack items vertically */
-    /*align-items: center;  !* Center content horizontally *!*/
-    text-align: center;    /* Center text */
-  }
-  .f5-col {
-    width: 100%;  /* Full width for each column */
-    margin-bottom: 20px;  /* Spacing between columns */
-  }
-  .f5-hide-small {
-    display: none !important; /* Hide images for smaller screens */
-  }
+video.f5-image {
+  padding-top: 54px; /* Default padding */
 }
 
-@media (max-width: 768px) {
-  .f5-content img {
-    width: 100%;  /* Make images responsive */
-    height: auto;  /* Keep aspect ratio intact */
-    max-width: 100%;  /* Ensure no image stretches beyond its container */
-  }
+/* Navbar Styles */
+.f5-bar .f5-bar-item {
+  padding: 8px 16px;
+  width: auto;
+  border: none;
+  display: inline-block;
+  outline: 0;
+  text-align: center;
 }
 
-/* Default Layout (Desktop) */
-/*.f5-col.m6 {*/
-/*  display: inline-block;*/
-/*  width: 50%;*/
-/*}*/
+/* Layout Adjustments */
+.f5-row-padding {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f5-col {
+  flex: 1 0 calc(33.333% - 16px);
+  margin-bottom: 16px;
+}
 
 .f5-col.m6 img {
   width: 100%; /* Ensures image takes full width of its container */
 }
 
-/* Mobile Layout */
+/* Text Styles */
+body {
+  font-family: "Cormorant", serif;
+}
+
+h1, h2, h3, h4, h5, h6, .f5-button {
+  letter-spacing: 5px;
+  font-family: "Cinzel", serif;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 30px;
+}
+
 @media (max-width: 768px) {
+  h1 {
+    font-size: 1.4em;
+  }
+
+  .f5-content {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .f5-row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .f5-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .f5-hide-small {
+    display: none !important;
+  }
+
   .f5-col.m6 {
-    width: 100%; /* Makes each column take full width on mobile */
-    margin-bottom: 20px; /* Adds space between elements */
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   #about2 .f5-col.m6:first-child {
-    order: 2; /* Moves the text below the image */
+    order: 2;
   }
 
   #about2 .f5-col.m6:last-child {
-    order: 1; /* Moves the image above the text */
+    order: 1;
+  }
+
+  .f5-bar {
+    text-align: center;
+  }
+
+  .f5-bar .f5-bar-item:first-child {
+    display: block;
+    width: 100%;
+    white-space: normal;
+    padding: 12px 20px;
+    text-align: center;
+  }
+
+  .f5-bar .f5-bar-item:not(:first-child) {
+    white-space: nowrap;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+  .f5-col {
+    flex: 1 0 100%;
+  }
+
+  .f5-col, .f5-row-padding {
+    padding: 0 !important;
+  }
+
+  .f5-large {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  video.f5-image {
+    padding-top: 62px;
   }
 }
 
-video.f5-image {
-  width: 100%;
-  height: auto;
-  padding-top: 54px; /* Default padding */
-}
-
-/* Targeting the .f5-bar-item within a .f5-bar element */
-.f5-bar .f5-bar-item {
-  padding: 8px 16px; /* Default padding */
-  width: auto;
-  border: none;
-  display: inline-block; /* Default inline behavior */
-  outline: 0;
-  text-align: center; /* Center text inside the links */
-}
-
-/* Styles for screens 600px and smaller */
 @media (max-width: 600px) {
   video.f5-image {
-    padding-top: 62px; /* Increased padding-top for mobile */
+    padding-top: 62px;
   }
 
-  /* Center the whole navbar on mobile */
-  .f5-bar {
-    text-align: center; /* Center-align navbar */
-  }
-
-  /* Adjusting only the first .f5-bar-item */
   .f5-bar .f5-bar-item:first-child {
-    display: block; /* Make the first link block-level */
-    width: 100%; /* Full width to allow wrapping */
-    white-space: normal; /* Allow text wrapping */
-    padding: 12px 20px; /* Adjust padding for mobile */
-    text-align: center; /* Center text inside */
+    display: block;
+    width: 100%;
+    white-space: normal;
+    padding: 12px 20px;
+    text-align: center;
   }
 
-  /* Ensure other links remain unaffected */
   .f5-bar .f5-bar-item:not(:first-child) {
-    white-space: nowrap; /* Prevent wrapping for other links */
-    display: inline-block; /* Keep the other links inline */
-    padding: 8px 16px; /* Retain original padding */
-  }
-  @media screen and (max-width: 768px) {
-    .f5-col {
-      padding: 0 !important; /* Removes padding on small screens */
-    }
-    .f5-row-padding {
-      padding: 0 !important; /* Removes padding on small screens */
-    }
-    .f5-large {
-      padding-left: 8px;
-      padding-right: 8px;
-    }
+    white-space: nowrap;
+    display: inline-block;
+    padding: 8px 16px;
   }
 }
 
-@media (max-width: 370px) {
-  video.f5-image {
-    padding-top: 72px; /* Increased padding-top for mobile */
+@media (max-width: 420px) {
+  /*video.f5-image {*/
+  /*  padding-top: 84px;*/
+  /*}*/
+  .f5-padding-non-mobile {
+    padding: 8px !important;
   }
 }
 
+/* Hide h1 in .f5-display-bottomleft */
 .f5-display-bottomleft h1 {
   display: none;
 }
-/* Styles for screens 768px and larger */
+
 @media (min-width: 768px) {
   .f5-bar .f5-bar-item {
-    display: inline-block; /* Default inline-block behavior */
-    padding: 8px 16px; /* Retain the original padding */
-    width: auto; /* Reset width to auto */
+    display: inline-block;
+    padding: 8px 16px;
+    width: auto;
   }
 
   .f5-display-bottomleft h1 {
@@ -646,17 +667,7 @@ video.f5-image {
   }
 }
 
-.f5-row-padding {
-  display: flex;
-  flex-wrap: wrap;
-}
-.f5-col {
-  flex: 1 0 calc(33.333% - 16px); /* 33.333% width minus the gap */
-  margin-bottom: 16px; /* To ensure spacing between rows */
+a {
+  text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-  .f5-col {
-    flex: 1 0 100%; /* Full width for smaller screens */
-  }
-}
