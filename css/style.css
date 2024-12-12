@@ -541,7 +541,7 @@ h1, h2, h3, h4, h5, h6, .f5-button {
   font-family: "Cinzel", serif;
 }
 
-h1 {
+h1, h2 { /* Making h2 look like h1 to make google happy */
   font-size: 3em;
   padding-top: 30px;
 }
@@ -552,8 +552,14 @@ h1 {
   padding-right: 8px;
 }
 
+@media (min-width: 768px) {
+  .left-align-fullscreen {
+    text-align: left;
+  }
+}
+
 @media (max-width: 768px) {
-  h1 {
+  h1, h2 { /* Making h2 look like h1 to make google happy */
     font-size: 1.4em;
   }
 
@@ -657,6 +663,18 @@ h1 {
   /*}*/
   .f5-padding-non-mobile {
     padding: 8px !important;
+  }
+  .f5-bar-item:first-child {
+    max-width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    letter-spacing: 4px;
+  }
+}
+
+@media (max-width: 370px) {
+  .f5-bar-item:first-child {
+    letter-spacing: 2px;
   }
 }
 
