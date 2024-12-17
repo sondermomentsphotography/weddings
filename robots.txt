@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /en.json
+Disallow: /fi.json
+
+# Allow search engines to crawl everything else
+Allow: /
+
+# Specify the location of the sitemap
+Sitemap: https://sondermomentsphotography.com/sitemap.xml
