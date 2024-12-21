@@ -634,6 +634,8 @@ h1, h2 { /* Making h2 look like h1 to make google happy */
 
   .review-padding {
     margin-bottom:16px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
