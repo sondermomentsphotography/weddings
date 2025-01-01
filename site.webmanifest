@@ -1,12 +1,21 @@
 {
-  "short_name": "",
-  "name": "",
-  "icons": [{
-    "src": "icon.svg",
-    "type": "image/svg",
-    "sizes": "192x192"
-  }],
+  "short_name": "SonderMoments",
+  "name": "Sonder Moments Weddings",
+  "icons": [
+    {
+      "src": "sonder-moments-weddings-logo.webp",
+      "type": "image/webp",
+      "sizes": "192x192"
+    },
+    {
+      "src": "sonder-moments-weddings-logo.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ],
   "start_url": "/?utm_source=homescreen",
   "background_color": "#fafafa",
-  "theme_color": "#fafafa"
+  "theme_color": "#fafafa",
+  "display": "standalone"
 }
+
