@@ -3,6 +3,11 @@
   "name": "Sonder Moments Weddings",
   "icons": [
     {
+      "src": "favicon_32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
       "src": "sonder-moments-weddings-logo.webp",
       "type": "image/webp",
       "sizes": "192x192"
