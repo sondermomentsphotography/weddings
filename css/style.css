@@ -374,7 +374,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .f5-greyscale-max,.f5-grayscale-max,.f5-hover-greyscale:hover,.f5-hover-grayscale:hover{filter:grayscale(100%)}
 .f5-greyscale,.f5-grayscale{filter:grayscale(75%)}.f5-greyscale-min,.f5-grayscale-min{filter:grayscale(50%)}
 .f5-sepia{filter:sepia(75%)}.f5-sepia-max,.f5-hover-sepia:hover{filter:sepia(100%)}.f5-sepia-min{filter:sepia(50%)}
-.f5-tiny{font-size:10px!important}.f5-small{font-size:12px!important}.f5-medium{font-size:15px!important}.f5-large{font-size:18px!important; padding-left: 12px; padding-right: 12px;}
+.f5-tiny{font-size:10px!important}.f5-small{font-size:12px!important}.f5-medium{font-size:15px!important}.f5-large{font-size:18px!important; padding-left: 40px; padding-right: 40px;}
 .f5-xlarge{font-size:24px!important}.f5-xxlarge{font-size:36px!important}.f5-xxxlarge{font-size:48px!important}.f5-jumbo{font-size:64px!important}
 .f5-left-align{text-align:left!important}.f5-right-align{text-align:right!important}.f5-justify{text-align:justify!important}.f5-center{text-align:center}
 .f5-border-0{border:0!important}.f5-border{border:1px solid #ccc!important}
@@ -552,6 +552,16 @@ h1, h2 { /* Making h2 look like h1 to make google happy */
   padding-right: 8px;
 }
 
+.f5-padding-large-more-left {
+  padding:12px 24px 12px 40px !important
+}
+
+.f5-large-less-padding {
+  font-size:18px!important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 @media (min-width: 768px) {
   .left-align-fullscreen {
     text-align: left;
@@ -623,7 +633,7 @@ h1, h2 { /* Making h2 look like h1 to make google happy */
     padding: 0 !important;
   }
 
-  .f5-large {
+  .f5-large, .f5-large-less-padding {
     padding-left: 12px;
     padding-right: 12px;
   }
