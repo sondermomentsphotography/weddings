@@ -4,7 +4,7 @@
   <url>
     <loc>https://sondermomentsphotography.com</loc>
     <lastmod>2025-01-06</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/en/" />
     <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/fi/" />
@@ -28,5 +28,39 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/en/" />
     <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/fi/" />
+  </url>
+
+  <!-- English Pricing PDF -->
+  <url>
+    <loc>https://sondermomentsphotography.com/download/wedding-photography-pricing.pdf</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/download/wedding-photography-pricing.pdf" />
+  </url>
+
+  <url>
+    <loc>https://sondermomentsphotography.com/download/videography-price-guide.pdf</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/download/videography-price-guide.pdf" />
+  </url>
+
+  <!-- Finnish Pricing PDF -->
+  <url>
+    <loc>https://sondermomentsphotography.com/download/Haavalokuvaus-hinnasto.pdf</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/download/Haavalokuvaus-hinnasto.pdf" />
+  </url>
+
+  <url>
+    <loc>https://sondermomentsphotography.com/download/Haavideo-hinnasto.pdf</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/download/Haavideo-hinnasto.pdf" />
   </url>
 </urlset>
