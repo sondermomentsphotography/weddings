@@ -720,28 +720,36 @@ a {
   object-fit: cover;
 }
 
-.youtube-wrapper .play-button {
+.play-button-container {
   position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust for size offset */
-  background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
-  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center-align the text */
+}
+
+.play-button {
+  background: none;
   border: none;
-  border-radius: 50%; /* Fully round shape */
-  width: 60px; /* Fixed size for round button */
-  height: 60px; /* Fixed size for round button */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px; /* Larger play icon */
+  color: white;
+  font-size: 48px; /* Icon size */
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-  transition: background 0.3s ease;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
-.youtube-wrapper .play-button:hover {
-  background: rgba(255, 0, 0, 0.9); /* YouTube red hover effect */
+
+.play-button:hover {
+  transform: scale(1.2); /* Slight zoom effect */
+  opacity: 0.5;
 }
+
+.play-text {
+  margin-top: 8px;
+  font-size: 16px;
+  color: white; /* White text */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for readability */
+  font-family: "Cinzel", serif;
+}
+
 
 
 
