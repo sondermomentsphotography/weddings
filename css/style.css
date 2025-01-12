@@ -711,4 +711,39 @@ a {
   text-decoration: none;
 }
 
+.youtube-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.youtube-wrapper .play-button {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for size offset */
+  background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Fully round shape */
+  width: 60px; /* Fixed size for round button */
+  height: 60px; /* Fixed size for round button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Larger play icon */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: background 0.3s ease;
+}
+.youtube-wrapper .play-button:hover {
+  background: rgba(255, 0, 0, 0.9); /* YouTube red hover effect */
+}
+
+
+
+
 
