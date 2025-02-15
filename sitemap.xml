@@ -3,7 +3,7 @@
   <!-- Root URL -->
   <url>
     <loc>https://sondermomentsphotography.com</loc>
-    <lastmod>2025-01-06</lastmod>
+    <lastmod>2025-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/en/" />
@@ -13,7 +13,7 @@
   <!-- English version -->
   <url>
     <loc>https://sondermomentsphotography.com/en/</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/en/" />
@@ -23,7 +23,7 @@
   <!-- Finnish version -->
   <url>
     <loc>https://sondermomentsphotography.com/fi/</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2025-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/en/" />
