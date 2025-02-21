@@ -30,13 +30,12 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/fi/" />
   </url>
 
-  <!-- English Pricing PDF -->
+  <!-- English Pricing PDFs (Removed Incorrect Hreflang) -->
   <url>
     <loc>https://sondermomentsphotography.com/download/wedding-photography-pricing.pdf</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/download/wedding-photography-pricing.pdf" />
   </url>
 
   <url>
@@ -44,16 +43,14 @@
     <lastmod>2025-01-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/download/videography-price-guide.pdf" />
   </url>
 
-  <!-- Finnish Pricing PDF -->
+  <!-- Finnish Pricing PDFs (Removed Incorrect Hreflang) -->
   <url>
     <loc>https://sondermomentsphotography.com/download/Haavalokuvaus-hinnasto.pdf</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/download/Haavalokuvaus-hinnasto.pdf" />
   </url>
 
   <url>
@@ -61,6 +58,5 @@
     <lastmod>2025-01-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/download/Haavideo-hinnasto.pdf" />
   </url>
 </urlset>
