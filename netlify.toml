@@ -1,0 +1,19 @@
+[[redirects]]
+from = "/"
+to = "/fi/"
+status = 301
+force = true
+conditions = { Country = ["FI"] }
+
+[[redirects]]
+from = "/"
+to = "/en/"
+status = 301
+force = true
+conditions = { Country = [] } # This applies to everyone not caught by the first rule
+
+[[headers]]
+for = "/site.webmanifest"
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Content-Type = "application/manifest+json"
