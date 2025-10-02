@@ -42,6 +42,32 @@
 </head>
 <body>
 
+<!-- Floating Lottery Button -->
+<div class="lottery-btn" id="lotteryBtn">
+  🎁 Häämessut arvonta
+</div>
+
+<div class="lottery-overlay" id="lotteryOverlay">
+  <div class="lottery-modal">
+    <span class="lottery-close" id="lotteryClose">&times;</span>
+    <h2>Voita parikuvaus tai save the date video!</h2>
+    <form id="lotteryForm">
+      <input type="text" name="name" placeholder="Nimi" required>
+      <input type="email" name="email" placeholder="Sähköposti" required>
+      <input type="text" name="location" placeholder="Sijainti" required>
+      <input type="tel" name="phone" placeholder="Puhelinnumero">
+      <!-- Päivämääräkenttä -->
+      <input type="date" name="date" required>
+
+      <!-- Piilotettu kilpailukenttä -->
+      <input type="hidden" name="competition" value="KILPAILU 4.10.2025">
+      <button type="submit">Lähetä</button>
+    </form>
+    <div id="lotteryMessage"></div>
+  </div>
+</div>
+
+
 <!-- Navbar (sit on top) -->
 <div class="f5-top">
   <div class="f5-bar f5-white f5-padding f5-card f5-padding-non-mobile" style="letter-spacing:4px;">
@@ -328,7 +354,7 @@
       yhdessä. <br><br>
       Älkää antako “Olisipa meillä häävideo” olla suurin katumuksenne. Tehdään siitä totta!
     </p>
-    <a href="https://sondermomentsphotography.com/download/Haavideo-hinnasto.pdf"
+    <a href="https://sondermomentsphotography.com/download/Haavideo-hinnasto-uusi.pdf"
        class="f5-bar-item f5-button"
        title="Häävideo Hinnasto (Suomi)"
        hreflang="fi"
@@ -783,6 +809,55 @@
   }
 </script>
 
+<!-- Lottery -->
+<script>
+  // Elements
+  const lotteryBtn = document.getElementById("lotteryBtn");
+  const lotteryOverlay = document.getElementById("lotteryOverlay");
+  const lotteryClose = document.getElementById("lotteryClose");
+  const lotteryForm = document.getElementById("lotteryForm");
+  const lotteryMessage = document.getElementById("lotteryMessage");
+
+  // Open popup
+  lotteryBtn.addEventListener("click", () => {
+    lotteryOverlay.style.display = "block";
+  });
+
+  // Close popup
+  lotteryClose.addEventListener("click", () => {
+    lotteryOverlay.style.display = "none";
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target === lotteryOverlay) {
+      lotteryOverlay.style.display = "none";
+    }
+  });
+
+  // Handle form submit -> send via EmailJS
+  lotteryForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+
+    emailjs.sendForm("service_spddklr", "template_4cj282g", this).then(
+      function () {
+        lotteryMessage.innerHTML = "✅ Kiitos osallistumisestasi arvontaan! Ilmoittautumisesi on lähetetty.";
+        lotteryMessage.className = "form-message success";
+        lotteryForm.reset();
+
+        setTimeout(() => {
+          lotteryOverlay.style.display = "none";
+          lotteryMessage.innerHTML = "";
+        }, 1000);
+      },
+      function (error) {
+        console.error("Lottery form error:", error);
+        lotteryMessage.innerHTML = "❌ Failed to submit. Please try again later.";
+        lotteryMessage.className = "form-message error";
+      }
+    );
+  });
+</script>
 
 <footer class="f5-center f5-light-grey f5-padding-32">
   <p>Powered by Sonder Moments</p>

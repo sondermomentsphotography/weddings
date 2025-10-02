@@ -42,7 +42,31 @@
 </head>
 
 <body>
+<!-- Floating Lottery Button -->
+<div class="lottery-btn" id="lotteryBtn">
+  🎁 Wedding Fair Price Draw
+</div>
 
+<!-- Popup Form Overlay -->
+<div class="lottery-overlay" id="lotteryOverlay">
+  <div class="lottery-modal">
+    <span class="lottery-close" id="lotteryClose">&times;</span>
+    <h2>Win a couple shoot or save the date video!</h2>
+    <form id="lotteryForm">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="location" placeholder="Location" required>
+      <input type="tel" name="phone" placeholder="Phone Number">
+      <!-- Date field -->
+      <input type="date" name="date" required>
+
+      <!-- Hidden competition field -->
+      <input type="hidden" name="competition" value="COMPETITION 4.10.2025">
+      <button type="submit">Submit</button>
+    </form>
+    <div id="lotteryMessage"></div>
+  </div>
+</div>
 <!-- Navbar (sit on top) -->
 <div class="f5-top">
   <div class="f5-bar f5-white f5-padding f5-card f5-padding-non-mobile" style="letter-spacing:4px;">
@@ -314,7 +338,7 @@
       ultimate cinematic masterpiece? Get in touch! Download below my brochure and pricing that gives you a sneak peek
       into what we can create together. <br><br> Don’t let “I wish we had a wedding film” be your biggest regret.
       Let’s make it happen!</p>
-    <a href="https://sondermomentsphotography.com/download/videography-price-guide.pdf"
+    <a href="https://sondermomentsphotography.com/download/videography-price-guide-new.pdf"
        class="f5-bar-item f5-button"
        title="Wedding Videography Pricing Guide (English)"
        hreflang="en"
@@ -769,6 +793,56 @@
   }
 </script>
 
+<!-- Lottery -->
+<script>
+  // Elements
+  const lotteryBtn = document.getElementById("lotteryBtn");
+  const lotteryOverlay = document.getElementById("lotteryOverlay");
+  const lotteryClose = document.getElementById("lotteryClose");
+  const lotteryForm = document.getElementById("lotteryForm");
+  const lotteryMessage = document.getElementById("lotteryMessage");
+
+  // Open popup
+  lotteryBtn.addEventListener("click", () => {
+    lotteryOverlay.style.display = "block";
+  });
+
+  // Close popup
+  lotteryClose.addEventListener("click", () => {
+    lotteryOverlay.style.display = "none";
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target === lotteryOverlay) {
+      lotteryOverlay.style.display = "none";
+    }
+  });
+
+  // Handle form submit -> send via EmailJS
+  lotteryForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+
+    emailjs.sendForm("service_spddklr", "template_4cj282g", this).then(
+      function () {
+        lotteryMessage.innerHTML = "✅ Thanks for joining the lottery! Your entry has been submitted.";
+        lotteryMessage.className = "form-message success";
+        lotteryForm.reset();
+
+        setTimeout(() => {
+          lotteryOverlay.style.display = "none";
+          lotteryMessage.innerHTML = "";
+        }, 1000);
+      },
+      function (error) {
+        console.error("Lottery form error:", error);
+        lotteryMessage.innerHTML = "❌ Failed to submit. Please try again later.";
+        lotteryMessage.className = "form-message error";
+      }
+    );
+  });
+</script>
+
 
 <footer class="f5-center f5-light-grey f5-padding-32">
   <p>Powered by Sonder Moments</p>
@@ -785,5 +859,6 @@
     </a>
   </div>
 </footer>
+
 </body>
 </html>
