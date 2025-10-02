@@ -419,7 +419,10 @@
         When I’m not capturing weddings, I’m
         often working on other exciting projects. My work has been featured in publications like Town &amp; Country,
         Goop, In The Moment, and Top Santé, to name just a few. For a closer look at my other projects, and to discover
-        more of what I do, you can check out my other business, Sonder Moments Media.<br><br>
+        more of what I do, you can check out my other business, <a href="https://media.sondermomentsphotography.com"
+                                                                   target="_blank"
+                                                                   class="styled-link"
+                                                                   rel="noopener">Sonder Moments Media</a>.<br><br>
         I am based in Espoo and
         have my photographic studio in Helsinki and cover destination weddings as well as weddings across the beautiful
         country of Finland. <br><br>
@@ -561,7 +564,7 @@
 
 </div>
 
-<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
   (function () {
     emailjs.init("v8iVtYyC3WfmgXb_M");
@@ -605,6 +608,30 @@
   });
 
 </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const fadeElements = document.querySelectorAll("img, picture, .fade-in");
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1
+    };
+    const observer = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, options);
+    fadeElements.forEach(el => {
+      el.classList.add("fade-in");
+      observer.observe(el);
+    });
+  });
+</script>
+
 
 <!-- LocalBusiness Schema -->
 <script type="application/ld+json">

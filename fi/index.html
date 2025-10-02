@@ -430,8 +430,10 @@
         Kun en kuvaa
         häitä, työskentelen usein muiden jännittävien projektien parissa. Työni on ollut esillä julkaisuissa,
         kuten Town &amp; Country, Goop, In The Moment ja Top Santé, muutamia mainitakseni. Jos haluat tutustua
-        tarkemmin muihin projekteihini ja nähdä lisää, voit käydä kurkkaamassa toista yritystäni, Sonder Moments
-        Media. <br><br>
+        tarkemmin muihin projekteihini ja nähdä lisää, voit käydä kurkkaamassa toista yritystäni, <a
+          href="https://media.sondermomentsphotography.com" target="_blank"
+          class="styled-link"
+          rel="noopener">Sonder Moments Media</a>. <br><br>
         Asun Espoossa ja minulla on valokuvausstudio Helsingissä. Teen hääkuvauksia myös
         ulkomailla ja eri puolilla kaunista Suomea. <br><br>
         Jos etsit hääkuvaajaa tai -videokuvaajaa, joka on
@@ -576,7 +578,7 @@
 
 </div>
 
-<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
   (function () {
     emailjs.init("v8iVtYyC3WfmgXb_M");
@@ -621,6 +623,30 @@
   });
 
 </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const fadeElements = document.querySelectorAll("img, picture, .fade-in");
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1
+    };
+    const observer = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, options);
+    fadeElements.forEach(el => {
+      el.classList.add("fade-in");
+      observer.observe(el);
+    });
+  });
+</script>
+
 <!-- LocalBusiness Schema -->
 <script type="application/ld+json">
   {
