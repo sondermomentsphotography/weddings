@@ -43,9 +43,9 @@
 <body>
 
 <!-- Floating Lottery Button -->
-<!--<div class="lottery-btn" id="lotteryBtn">-->
-<!--  🎁 Häämessut arvonta-->
-<!--</div>-->
+<div class="lottery-btn" id="lotteryBtn">
+  🎁 Häämessut arvonta
+</div>
 
 <div class="lottery-overlay" id="lotteryOverlay">
   <div class="lottery-modal">
@@ -810,54 +810,54 @@
 </script>
 
 <!-- Lottery -->
-<!--<script>-->
-<!--  // Elements-->
-<!--  const lotteryBtn = document.getElementById("lotteryBtn");-->
-<!--  const lotteryOverlay = document.getElementById("lotteryOverlay");-->
-<!--  const lotteryClose = document.getElementById("lotteryClose");-->
-<!--  const lotteryForm = document.getElementById("lotteryForm");-->
-<!--  const lotteryMessage = document.getElementById("lotteryMessage");-->
+<script>
+  // Elements
+  const lotteryBtn = document.getElementById("lotteryBtn");
+  const lotteryOverlay = document.getElementById("lotteryOverlay");
+  const lotteryClose = document.getElementById("lotteryClose");
+  const lotteryForm = document.getElementById("lotteryForm");
+  const lotteryMessage = document.getElementById("lotteryMessage");
 
-<!--  // Open popup-->
-<!--  lotteryBtn.addEventListener("click", () => {-->
-<!--    lotteryOverlay.style.display = "block";-->
-<!--  });-->
+  // Open popup
+  lotteryBtn.addEventListener("click", () => {
+    lotteryOverlay.style.display = "block";
+  });
 
-<!--  // Close popup-->
-<!--  lotteryClose.addEventListener("click", () => {-->
-<!--    lotteryOverlay.style.display = "none";-->
-<!--  });-->
+  // Close popup
+  lotteryClose.addEventListener("click", () => {
+    lotteryOverlay.style.display = "none";
+  });
 
-<!--  window.addEventListener("click", (e) => {-->
-<!--    if (e.target === lotteryOverlay) {-->
-<!--      lotteryOverlay.style.display = "none";-->
-<!--    }-->
-<!--  });-->
+  window.addEventListener("click", (e) => {
+    if (e.target === lotteryOverlay) {
+      lotteryOverlay.style.display = "none";
+    }
+  });
 
-<!--  // Handle form submit -> send via EmailJS-->
-<!--  lotteryForm.addEventListener("submit", function (e) {-->
-<!--    e.preventDefault();-->
+  // Handle form submit -> send via EmailJS
+  lotteryForm.addEventListener("submit", function (e) {
+    e.preventDefault();
 
 
-<!--    emailjs.sendForm("service_spddklr", "template_4cj282g", this).then(-->
-<!--      function () {-->
-<!--        lotteryMessage.innerHTML = "✅ Kiitos osallistumisestasi arvontaan! Ilmoittautumisesi on lähetetty.";-->
-<!--        lotteryMessage.className = "form-message success";-->
-<!--        lotteryForm.reset();-->
+    emailjs.sendForm("service_spddklr", "template_4cj282g", this).then(
+      function () {
+        lotteryMessage.innerHTML = "✅ Kiitos osallistumisestasi arvontaan! Ilmoittautumisesi on lähetetty.";
+        lotteryMessage.className = "form-message success";
+        lotteryForm.reset();
 
-<!--        setTimeout(() => {-->
-<!--          lotteryOverlay.style.display = "none";-->
-<!--          lotteryMessage.innerHTML = "";-->
-<!--        }, 1000);-->
-<!--      },-->
-<!--      function (error) {-->
-<!--        console.error("Lottery form error:", error);-->
-<!--        lotteryMessage.innerHTML = "❌ Failed to submit. Please try again later.";-->
-<!--        lotteryMessage.className = "form-message error";-->
-<!--      }-->
-<!--    );-->
-<!--  });-->
-<!--</script>-->
+        setTimeout(() => {
+          lotteryOverlay.style.display = "none";
+          lotteryMessage.innerHTML = "";
+        }, 1000);
+      },
+      function (error) {
+        console.error("Lottery form error:", error);
+        lotteryMessage.innerHTML = "❌ Failed to submit. Please try again later.";
+        lotteryMessage.className = "form-message error";
+      }
+    );
+  });
+</script>
 
 <footer class="f5-center f5-light-grey f5-padding-32">
   <p>Powered by Sonder Moments</p>
