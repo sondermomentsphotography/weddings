@@ -2198,8 +2198,8 @@ h1, h2 { /* Making h2 look like h1 to make google happy */
   }
 }
 
-/* Hide h1 in .f5-display-bottomleft */
-.f5-display-bottomleft h1 {
+/* Hide h2 in .f5-display-bottomleft */
+.f5-display-bottomleft h2 {
   display: none;
 }
 
@@ -2210,7 +2210,7 @@ h1, h2 { /* Making h2 look like h1 to make google happy */
     width: auto;
   }
 
-  .f5-display-bottomleft h1 {
+  .f5-display-bottomleft h2 {
     display: block;
   }
 }
