@@ -68,7 +68,7 @@
     Your browser does not support the video tag.
   </video>
   <div class="f5-display-bottomleft f5-padding-large">
-    <h2 class="f5-xxlarge" style="font-family: 'hand2', serif;">Sonder Moments Weddings</h2>
+    <h2 class="f5-xxlarge" >Sonder Moments Weddings</h2>
   </div>
 </header>
 
@@ -512,7 +512,7 @@
           placeholder=""
           name="date"
           autocomplete="off"
-          value="2026-01-01">
+          value="2027-01-01">
       </p>
       <p>
         <input
@@ -602,7 +602,9 @@
         const videoId = this.getAttribute('data-id');
         const iframe = document.createElement('iframe');
         iframe.setAttribute('src', `https://www.youtube-nocookie.com/embed/${videoId}?vq=hd1080&modestbranding=1&rel=0&autoplay=1`);
-        iframe.setAttribute('title', 'Tytherington wedding film');
+        iframe.setAttribute('title', this.getAttribute('data-title') || 'Wedding film');
+        iframe.setAttribute('loading', 'lazy');
+        iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
         iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
         iframe.setAttribute('allowfullscreen', true);
         iframe.style.position = 'absolute';

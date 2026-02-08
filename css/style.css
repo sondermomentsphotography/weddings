@@ -1988,19 +1988,12 @@ a {
   border-color: #e7ffff !important
 }
 
-
 @font-face {
-  font-family: 'hand';
-  src: url('Bastliga One.ttf') format('truetype');
+  font-family: 'BastligaOne';
+  src: url('/css/Bastliga One.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'hand2';
-  src: url('Bastliga One.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+  font-display: swap;
 }
 
 /* Image and Video Styles */
@@ -2047,6 +2040,8 @@ h1, h2, h3, h4, h5, h6, .f5-button {
   letter-spacing: 5px;
   font-family: "Cinzel", serif;
 }
+
+#home h2 { font-family: "BastligaOne", serif; }
 
 h1, h2 { /* Making h2 look like h1 to make google happy */
   font-size: 3em;
