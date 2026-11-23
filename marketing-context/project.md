@@ -2,6 +2,8 @@
 
 Owner-confirmed requirements, 2026-11-05:
 
+Current analytics implementation, 2026-11-23: GoatCounter pageviews added at the owner's request to the shared sondermoments.goatcounter.com account. Follows Sonder Moments Media's hostname-prefixed paths, using each Weddings page's canonical path (e.g. sondermomentsphotography.com/fi/haavideot/) so common paths do not merge with the other sites. js/analytics.js loads count.js asynchronously only on the production Weddings hosts; localhost, preview domains and __WEDDINGS_PREVIEW__ are excluded. Paths omit queries/fragments. No form contents or custom conversion events are sent. Mock tests verify routing, duplicate-load prevention and preview exclusions; no live analytics were generated. Build and tests pass. Deployment and actual account receipt remain unverified; older statements that no analytics are implemented are superseded by this local implementation.
+
 - Business: Sonder Moments Weddings, Sirle; wedding photography and cinematic wedding films in Helsinki, across Finland and Europe. Existing contact: info@sondermomentsphotography.com / +358 40 485 9969. Existing copy says based in Kirkkonummi; no current physical studio address confirmed.
 - Keep complete Finnish and English versions, with distinct photography and film pages on the same domain. Existing /en/ and /fi/ remain homepages. No second domain is requested.
 - Match the local Tinderkuvaus and Boudoir Studio design family while keeping Weddings white. Use the original photographs, films and personal voice; preserve most original copy.

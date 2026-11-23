@@ -18,4 +18,6 @@ To add a published film, supply its YouTube `source` ID, bilingual `slug`, `titl
 
 The landing intro stays muted, autoplaying and looping without hover controls. New watch pages use ordinary playback controls and do not autoplay. Search visibility requires deployment and indexing; local validation does not establish rankings or rich-result eligibility.
 
+GoatCounter pageviews use the shared `sondermoments.goatcounter.com` account, following the hostname-prefixed approach in Sonder Moments Media. For example, a film-page visit is recorded as `sondermomentsphotography.com/fi/haavideot/`. `js/analytics.js` loads the async tracker only on the production domain (including www), never on localhost, preview hosts or `window.__WEDDINGS_PREVIEW__` pages. Paths use the page canonical without query strings or fragments. No form contents or custom conversion events are sent. `npm test` verifies routing and isolation with local mocks, without sending live analytics. Deployment and a genuine production visit are needed to verify receipt in the account.
+
 See `marketing-context/project.md` for owner decisions and `.agents/skills/` for the 27 reusable marketing packages copied from Boudoir Studio. Those skills retain their source records and licences and are discoverable on the next turn. They do not connect third-party services.

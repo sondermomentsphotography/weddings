@@ -1,4 +1,6 @@
 /* Shared behavior; all page content is present in the generated HTML. */
+import './analytics.js';
+
 const language = document.documentElement.lang;
 const fi = language === 'fi';
 
