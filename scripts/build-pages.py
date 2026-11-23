@@ -58,7 +58,7 @@ def contact(lang, page):
     fields = ''
     for name,typ,label in zip(['name','email','phone','date','location'],['text','email','tel','date','text'],labels):
         fields += f'<div class="field"><label for="{name}">{label}</label><input id="{name}" name="{name}" type="{typ}"'+(' required' if name in ['name','email'] else '')+(f' autocomplete="{dict(name="name",email="email",phone="tel")[name]}"' if name in ['name','email','phone'] else '')+'></div>'
-    selection = ''.join(f'<option value="{k}"'+(' selected' if k == page else '')+f'>{v}</option>' for k,v in [('both',text(lang,'Photography & films','Valokuvaus ja häävideot')),('photography',text(lang,'Photography','Valokuvaus')),('films',text(lang,'Wedding films','Häävideot'))])
+    selection = ''.join(f'<option value="{k}"'+(' selected' if k == page else '')+f'>{v}</option>' for k,v in [('photography',text(lang,'Photography','Valokuvaus')),('films',text(lang,'Wedding films','Häävideot'))])
     return f'''<section class="section contact-section" id="contact"><div class="shell contact-grid"><div>
 <p class="eyebrow">{text(lang,'Your story starts here','Teidän tarinanne alkaa tästä')}</p><h2>{text(lang,'Let’s create something<br><em>truly magical.</em>','Luodaan yhdessä<br><em>jotain unohtumatonta.</em>')}</h2>
 <p>{text(lang,'I offer full photography and videography services and would love to hear from you. Tell me your date, your plans, and a little about the two of you.','Tarjoan kattavia valokuvaus- ja videokuvauspalveluita, ja olisi hienoa kuulla teistä. Kertokaa hääpäivästänne, suunnitelmistanne ja hieman itsestänne.')}</p>
