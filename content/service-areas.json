@@ -1,0 +1,7 @@
+[
+  { "@type": "City", "name": "Helsinki" },
+  { "@type": "Place", "name": "Helsinki metropolitan area", "alternateName": "Pääkaupunkiseutu" },
+  { "@type": "Place", "name": "Southern Finland", "alternateName": "Etelä-Suomi" },
+  { "@type": "Country", "name": "Finland", "alternateName": "Suomi" },
+  { "@type": "Continent", "name": "Europe", "alternateName": "Eurooppa" }
+]

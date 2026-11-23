@@ -117,3 +117,7 @@ The owner requested hidden controls on mobile and a clear play overlay. The sile
 ### Enlarged wedding photographs — 2026-11-23
 
 Photography gallery images and the photography hero image now open a native dialog viewer in both languages. It shows the full uncropped WebP, with previous/next buttons, arrow-key navigation, Escape/close and focus returned to the clicked photograph. Duplicate hero/gallery sources share one gallery entry. White background and square controls match Weddings. Image links remain usable without JavaScript; enlarged photos load only when selected. Browser checks verified opening, next/previous, Escape and focus/scroll restoration, mobile portrait sizing at 390 px, and English hero opening. Build and all 20-page checks pass. Screenshot: /private/tmp/weddings-photo-viewer.png.
+
+### Structured service areas — 2026-11-23
+
+Owner requested alignment of areaServed with actual coverage. content/service-areas.json now supplies the same five areas to Organization on all 20 pages and Service on the four photography/film pages: Helsinki (City), Helsinki metropolitan area / Pääkaupunkiseutu (Place), Southern Finland / Etelä-Suomi (Place), Finland / Suomi (Country), Europe / Eurooppa (Continent). Southern Finland is a geographical Place, not a current administrative province. This describes travel coverage, not branches or studio addresses. Generated JSON verification confirmed consistency across all 24 business/service records; build and all 20-page checks pass. No live deployment, indexing change or ranking result claimed.

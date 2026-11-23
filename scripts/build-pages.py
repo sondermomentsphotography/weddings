@@ -13,6 +13,7 @@ COPY = json.loads((ROOT / 'content/copy.json').read_text())
 DIMENSIONS = json.loads((ROOT / 'content/image-dimensions.json').read_text())
 MEDIA = json.loads((ROOT / 'content/films.json').read_text())
 PRICES = json.loads((ROOT / 'content/pricing.json').read_text())
+SERVICE_AREAS = json.loads((ROOT / 'content/service-areas.json').read_text())
 ROUTES = {'en': {'home': '/en/', 'photography': '/en/wedding-photography/', 'films': '/en/wedding-films/'}, 'fi': {'home': '/fi/', 'photography': '/fi/haavalokuvaus/', 'films': '/fi/haavideot/'}}
 
 def e(s): return html.escape(str(s), quote=True)
@@ -206,9 +207,9 @@ def document(lang,page,body,film=None):
     path = film_path(lang, film) if film else ROUTES[lang][page]
     url = BASE + path
     share_image = film['thumbnailUrl'] if film else BASE + '/img/wedding-couple-outdoors.jpg'
-    schema={'@context':'https://schema.org','@graph':[{'@type':'Organization','@id':BASE+'/#business','name':'Sonder Moments Weddings','url':BASE,'telephone':'+358404859969','email':'info@sondermomentsphotography.com','sameAs':['https://www.instagram.com/sondermomentsweddings/','https://www.youtube.com/@SonderMomentsWeddings']},{'@type':'WebPage','@id':url+'#page','url':url,'name':title,'description':description,'inLanguage':lang,'publisher':{'@id':BASE+'/#business'}}]}
+    schema={'@context':'https://schema.org','@graph':[{'@type':'Organization','@id':BASE+'/#business','name':'Sonder Moments Weddings','url':BASE,'areaServed':SERVICE_AREAS,'telephone':'+358404859969','email':'info@sondermomentsphotography.com','sameAs':['https://www.instagram.com/sondermomentsweddings/','https://www.youtube.com/@SonderMomentsWeddings']},{'@type':'WebPage','@id':url+'#page','url':url,'name':title,'description':description,'inLanguage':lang,'publisher':{'@id':BASE+'/#business'}}]}
     if page!='home' and not film:
-        schema['@graph'].append({'@type':'Service','name':text(lang,'Wedding photography','Häävalokuvaus') if photo else text(lang,'Wedding videography','Häävideokuvaus'),'url':url,'provider':{'@id':BASE+'/#business'},'areaServed':{'@type':'Country','name':'Finland'},'offers':{'@type':'Offer','price':PRICES[page]['total'],'priceCurrency':'EUR','url':url+'#pricing','priceSpecification':{'@type':'PriceSpecification','price':PRICES[page]['total'],'priceCurrency':'EUR','valueAddedTaxIncluded':True}}})
+        schema['@graph'].append({'@type':'Service','name':text(lang,'Wedding photography','Häävalokuvaus') if photo else text(lang,'Wedding videography','Häävideokuvaus'),'url':url,'provider':{'@id':BASE+'/#business'},'areaServed':SERVICE_AREAS,'offers':{'@type':'Offer','price':PRICES[page]['total'],'priceCurrency':'EUR','url':url+'#pricing','priceSpecification':{'@type':'PriceSpecification','price':PRICES[page]['total'],'priceCurrency':'EUR','valueAddedTaxIncluded':True}}})
         schema['@graph'].append({'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':text(lang,'Home','Etusivu'),'item':BASE+ROUTES[lang]['home']},{'@type':'ListItem','position':2,'name':title.split('|')[0].strip(),'item':url}]})
     if film:
         video_id = url + '#video'
