@@ -1,7 +1,7 @@
 {
-  "name": " ",
+  "name": "sonder-moments-weddings",
   "version": "0.0.1",
-  "description": "",
+  "description": "Bilingual wedding photography and films by Sonder Moments.",
   "private": true,
   "keywords": [
     ""
@@ -9,9 +9,11 @@
   "license": "",
   "author": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "python3 scripts/check-site.py",
     "start": "webpack serve --open --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "npm run generate && webpack --config webpack.config.prod.js",
+    "generate": "python3 scripts/build-pages.py",
+    "prestart": "npm run generate"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",

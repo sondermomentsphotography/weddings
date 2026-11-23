@@ -1,0 +1,745 @@
+{
+  "reviewed_on": "2026-11-03",
+  "repository": "https://github.com/coreyhaines31/marketingskills",
+  "commit": "88c79f6528a9347420e57ceb1fff9a60de651768",
+  "licence": "MIT; upstream notice included in each imported package",
+  "installation": "Project-local, one portable folder per skill. No global installation or account integrations.",
+  "packages": [
+    {
+      "name": "product-marketing",
+      "source_path": "skills/product-marketing",
+      "original_files": {
+        "SKILL.md": "19ece0fa75c72a5a8b6e90db80f506586f54cc93bae6bffbb1bd2ef4ae7d603c",
+        "evals/evals.json": "0c6599b88f50ec1be91096a36ba6c5a15cf8312151394e3469e5ddb991b19afb",
+        "references/brand-voice.md": "932f3453db2761f03050792e39800150495dab449750b40913a4314ea97e7672"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "5b0841087a267ee724da53fb7e467b7a336ef14f5f097beea84928596412cb22",
+        "UPSTREAM.md": "e576af069c1bcdf71d0c024ac87b2e3185889190200fb4d356b60c55f4dff036",
+        "agents/openai.yaml": "bb871fd8300b78ab02d99783446e81fcf37d2e485d89c1a0a52416ede113d2ae",
+        "evals/evals.json": "0c6599b88f50ec1be91096a36ba6c5a15cf8312151394e3469e5ddb991b19afb",
+        "references/brand-voice.md": "932f3453db2761f03050792e39800150495dab449750b40913a4314ea97e7672",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7"
+      }
+    },
+    {
+      "name": "customer-research",
+      "source_path": "skills/customer-research",
+      "original_files": {
+        "SKILL.md": "22964b89315a6cf5524d3f627904843e7826d40e06689a07faa5df25fc730bc7",
+        "evals/evals.json": "fc8a15d12e582b55fa52ad27925594ab796ebd6a8ea13fed13722f97e4c51f01",
+        "references/interviews-and-surveys.md": "56adecdc40af1242464937100349fc1a161627394909551720494bc5ee537076",
+        "references/source-guides.md": "7490a8d04f209d4c8c987530e79d0883a6b42027b86a920fc751cf8ea9904892"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "464beacfb9e9932103293aa6d0b7f9ecefb88e2e5c3775957578247c064c0f61",
+        "UPSTREAM.md": "b4badc6bad56c3cb59aa17a64190a37084dfee0c5f7325830f7b41af0461b30c",
+        "agents/openai.yaml": "eb114d73162498db405325ea717f564579e0b317b126bf42b04af65448dd5a97",
+        "evals/evals.json": "fc8a15d12e582b55fa52ad27925594ab796ebd6a8ea13fed13722f97e4c51f01",
+        "references/interviews-and-surveys.md": "56adecdc40af1242464937100349fc1a161627394909551720494bc5ee537076",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/source-guides.md": "7490a8d04f209d4c8c987530e79d0883a6b42027b86a920fc751cf8ea9904892"
+      }
+    },
+    {
+      "name": "competitor-profiling",
+      "source_path": "skills/competitor-profiling",
+      "original_files": {
+        "SKILL.md": "66d93cd9c8120d63d45c4154f13bf6b475db99b7628569ed4e42eb271909e254",
+        "evals/evals.json": "89e7a8dee7c688adde18f2885ee4b52011faab29255f182c401b19fe78caf264",
+        "references/templates.md": "710d78cb519012eb7e39f63643e22d7b9026c91c569262b44c45535c10717a91",
+        "references/tool-reference.md": "fda64910bc1b3a2bc7df21c15701220849b4b79a58a51f9d3ccae1b7311dbd79"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "a9b9d399e5e8947048a779ef61d233c6be2a9d2e3077d768ac44e379310db3c0",
+        "UPSTREAM.md": "fe81d50af06d339c3a2baafac4c69a5bf63c6103aa8e1248832fd6f7d539eeeb",
+        "agents/openai.yaml": "487805d8e30b119467e11aa2793a1f2a8dd4c02d1c0de95a55020a55419ab654",
+        "evals/evals.json": "89e7a8dee7c688adde18f2885ee4b52011faab29255f182c401b19fe78caf264",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/templates.md": "710d78cb519012eb7e39f63643e22d7b9026c91c569262b44c45535c10717a91",
+        "references/tool-reference.md": "fda64910bc1b3a2bc7df21c15701220849b4b79a58a51f9d3ccae1b7311dbd79"
+      }
+    },
+    {
+      "name": "content-strategy",
+      "source_path": "skills/content-strategy",
+      "original_files": {
+        "SKILL.md": "5e74201646b8ae0b7ddfd2f4a4a14149096f490667b32bcb9e3a35e7326d88b0",
+        "evals/evals.json": "10167e7125ee77cbabe4f03953750dd99ea147f7461027fdbb0cf8e089e5506d",
+        "references/content-distribution.md": "1861a1aab0627ab29c279000879a9889242da1ba85e677acdc759c66a6241778",
+        "references/headless-cms.md": "efc796ae9596d1efcb876683db2d9b7c10c83e76e1cb69e527097907d5b4fc3f"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "9a8b9c7d3f200f2feeac346fc3930051852f8f454a775caafa71195a75a3d536",
+        "UPSTREAM.md": "f6b10662e29eb0b2daed20905d8ae44e5158954ab76d806ee8ffcbcb8160c7b0",
+        "agents/openai.yaml": "df57da21c8327ef6d9681b1efb4d68ebc0799214d91ab2fb667dc5ed880ae23f",
+        "evals/evals.json": "10167e7125ee77cbabe4f03953750dd99ea147f7461027fdbb0cf8e089e5506d",
+        "references/content-distribution.md": "1861a1aab0627ab29c279000879a9889242da1ba85e677acdc759c66a6241778",
+        "references/headless-cms.md": "efc796ae9596d1efcb876683db2d9b7c10c83e76e1cb69e527097907d5b4fc3f",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7"
+      }
+    },
+    {
+      "name": "copywriting",
+      "source_path": "skills/copywriting",
+      "original_files": {
+        "SKILL.md": "02f0ab1ddd41d95b3c230d4bcff3de6578c8f2e45776c8ef2e4b931636af5bee",
+        "evals/evals.json": "ccec86052a0edd8646d0e50e63c08e0e971f443d8f6e9178843a1629f79efdb0",
+        "references/ai-tells.md": "b98c3a19b3a75c714d69e80a0076e4c07244b0e833c2ce81ff2631224fb7f7b2",
+        "references/copy-frameworks.md": "4db06c481a904be3e4571ad8f671532c97ec186ddf0fb8aee3e3a56ef8e3d441",
+        "references/natural-transitions.md": "9bd61b0de5be2c4de4ce130c68236b4f290b12737823827a458bb2b4c8584683"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "5fcc7e49e19e86575ab1a9750bf40abec38ec854cf27503bb0e1065a549b6ee1",
+        "UPSTREAM.md": "b32fcd3f6cd4c902bb4841b9ac7aa0c625a8b9ed94558c3a0bb836ec9e8989ae",
+        "agents/openai.yaml": "8dfba46a4d4843beadee6aeb97cccaa3028a91d5e15b0094d663a411e228f85a",
+        "evals/evals.json": "ccec86052a0edd8646d0e50e63c08e0e971f443d8f6e9178843a1629f79efdb0",
+        "references/ai-tells.md": "b98c3a19b3a75c714d69e80a0076e4c07244b0e833c2ce81ff2631224fb7f7b2",
+        "references/copy-frameworks.md": "4db06c481a904be3e4571ad8f671532c97ec186ddf0fb8aee3e3a56ef8e3d441",
+        "references/natural-transitions.md": "9bd61b0de5be2c4de4ce130c68236b4f290b12737823827a458bb2b4c8584683",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7"
+      }
+    },
+    {
+      "name": "copy-editing",
+      "source_path": "skills/copy-editing",
+      "original_files": {
+        "SKILL.md": "cec5a771ce37ade292f7f1f6b418e8a6ce6ec3f50163fa5e664afbcb03e085fc",
+        "evals/evals.json": "cc18c9f51094058759267d465cfcc50da65f248f66b923326781aa642d622ca7",
+        "references/checklist.md": "4cf94c922286223681fc53721fcc65ae7299f1e36e797e7397d369d674580c60",
+        "references/content-refresh.md": "ba73cdf278fe6b552eee27eb1452494f11f9d17ef67d720657e0982f76fb961b",
+        "references/plain-english-alternatives.md": "df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "86682dfd8ae605ed862a75b9b189b9789651f325886f5da0815e3265887087db",
+        "UPSTREAM.md": "21249ae692e886996bd1c7a4b7f5a4da56404fccb854ba7f1ba5eb8b558ce76a",
+        "agents/openai.yaml": "e4e0b4a2575ce2c4afe3a84615e80febe3c9cb4147b74026185bf194049913fc",
+        "evals/evals.json": "cc18c9f51094058759267d465cfcc50da65f248f66b923326781aa642d622ca7",
+        "references/checklist.md": "4cf94c922286223681fc53721fcc65ae7299f1e36e797e7397d369d674580c60",
+        "references/content-refresh.md": "ba73cdf278fe6b552eee27eb1452494f11f9d17ef67d720657e0982f76fb961b",
+        "references/plain-english-alternatives.md": "df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7"
+      }
+    },
+    {
+      "name": "seo-audit",
+      "source_path": "skills/seo-audit",
+      "original_files": {
+        "SKILL.md": "e0ebb5808787f2ff26b96d7b429423874d9785541cd4ab775629a5cf1137e7a9",
+        "evals/evals.json": "1524e98916ab53abb894fb80827a8d0e1815041adca2ee2023b89916d68f22b2",
+        "references/ai-writing-detection.md": "f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4",
+        "references/international-seo.md": "0603022cca968acf7889fc224221aa0e70955ba64355bc18b06f7e86b32f45e5",
+        "references/local-seo-pages-and-measurement.md": "20607ef91c4b8b37346f42130a6f51ed4ce64dc2731b6e1328b5b14f16917fe3",
+        "references/local-seo-profile-and-citations.md": "83b1b63eb6083e7aab1f56c4928335ea2a235e837861a9e9e8043b6af162a1f3",
+        "references/local-seo.md": "d2666d9c225bc36f9737ce612894abbe7e263b5974e2db7c1efc50f6010bb376",
+        "references/rankings-push.md": "c21d6d4f9faf7ce5b1dc0f8bd508e7513967492fcd8ed9510a175ce243daf8c8",
+        "references/title-tags.md": "c40b3c6af3600ca15670db8eb81000c7ca6fa25265a6550ccc630f53db3fcf51"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "7a2287c2b059a0b6d256e76b6a19ea6538ea2d95b1ba85512b46b1691cb7ac49",
+        "UPSTREAM.md": "8f18225984882ba452f415e0beae5e736028b4883d4edd4c07f98219054b4e6b",
+        "agents/openai.yaml": "34bc6f55801a478f159ca2db56658ce43695025266bc95f327c578bc0a739be6",
+        "evals/evals.json": "1524e98916ab53abb894fb80827a8d0e1815041adca2ee2023b89916d68f22b2",
+        "references/ai-writing-detection.md": "f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4",
+        "references/international-seo.md": "0603022cca968acf7889fc224221aa0e70955ba64355bc18b06f7e86b32f45e5",
+        "references/local-seo-pages-and-measurement.md": "20607ef91c4b8b37346f42130a6f51ed4ce64dc2731b6e1328b5b14f16917fe3",
+        "references/local-seo-profile-and-citations.md": "83b1b63eb6083e7aab1f56c4928335ea2a235e837861a9e9e8043b6af162a1f3",
+        "references/local-seo.md": "d2666d9c225bc36f9737ce612894abbe7e263b5974e2db7c1efc50f6010bb376",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/rankings-push.md": "c21d6d4f9faf7ce5b1dc0f8bd508e7513967492fcd8ed9510a175ce243daf8c8",
+        "references/title-tags.md": "c40b3c6af3600ca15670db8eb81000c7ca6fa25265a6550ccc630f53db3fcf51"
+      }
+    },
+    {
+      "name": "site-architecture",
+      "source_path": "skills/site-architecture",
+      "original_files": {
+        "SKILL.md": "55c0128ac29f628944444f8850b97913517f57131673824ebcad4d5ffb26ddd2",
+        "evals/evals.json": "ed6f68ba0f8355efe26d89eae51d64c381d644cc7e942e80539a660cb52c9b02",
+        "references/mermaid-templates.md": "362190c7d3f419d5f445170f1fb17beecc163937d2068922893b7a69eeb25f0f",
+        "references/navigation-patterns.md": "2efa772709b753e33d5018c007147ca30aaa95a04b04dc0df6227ea5a053078b",
+        "references/platforms-and-migration.md": "391f12c5994e1e577db75cd6044e038a276f14eda1c2ebc7f6a92293fbc59448",
+        "references/site-type-templates.md": "3c3cd7ce5e31c502dc071baf82bb58cb30f5edf4a2fd8ca052fbc8f3777db140"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "d356405cbb75e1ed3c9f0f8c9e5ab44cb0124e5d145497b0b988702add08e4a6",
+        "UPSTREAM.md": "6bc17a4c699bff169696f399e9225b56572e7c9b2aea1b3c5f1e42ad7d806a6b",
+        "agents/openai.yaml": "1abe65c3ef695f700469ebabe435e56b9ceb6df19fb47b79e951b8205e1e6637",
+        "evals/evals.json": "ed6f68ba0f8355efe26d89eae51d64c381d644cc7e942e80539a660cb52c9b02",
+        "references/mermaid-templates.md": "362190c7d3f419d5f445170f1fb17beecc163937d2068922893b7a69eeb25f0f",
+        "references/navigation-patterns.md": "2efa772709b753e33d5018c007147ca30aaa95a04b04dc0df6227ea5a053078b",
+        "references/platforms-and-migration.md": "391f12c5994e1e577db75cd6044e038a276f14eda1c2ebc7f6a92293fbc59448",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/site-type-templates.md": "3c3cd7ce5e31c502dc071baf82bb58cb30f5edf4a2fd8ca052fbc8f3777db140"
+      }
+    },
+    {
+      "name": "schema",
+      "source_path": "skills/schema",
+      "original_files": {
+        "SKILL.md": "d298f5d6e1b33b6825f38ecaa05c4d33ba9e45e346b224bd86f9834e46f67a94",
+        "evals/evals.json": "508d08d55abd5f1b71795f07be0330cbd4ab92d20ddfb77964d053962d6f8f16",
+        "references/schema-examples.md": "9b093bce816fac8494c8ccfd588eeb0c00e1308fe99bb46388ff222664ed94be"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "2ca08ab95b81456168a17a6d6477e30ee2b1f8b895309cc7982deb71662e1c80",
+        "UPSTREAM.md": "09d75c2379299f0b9010f77cf26122a9a670f66a8ece30d5fb9414d26f4f359b",
+        "agents/openai.yaml": "d136ba47b208529f80c53f8d4f520bcddad00954f550ca91f48a832a819c16b7",
+        "evals/evals.json": "508d08d55abd5f1b71795f07be0330cbd4ab92d20ddfb77964d053962d6f8f16",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/schema-examples.md": "9b093bce816fac8494c8ccfd588eeb0c00e1308fe99bb46388ff222664ed94be"
+      }
+    },
+    {
+      "name": "cro",
+      "source_path": "skills/cro",
+      "original_files": {
+        "SKILL.md": "6e172cc38178c800ff41ceb097f36c6a1db8035fb88a1fee53043f8ec38a6f35",
+        "evals/evals.json": "62f3003602836e2b49d797ca582e7703629a6b07b131eb77b51b2bb39fe65775",
+        "references/experiments.md": "bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca",
+        "references/form.md": "49b8f29b3da1ae6510572288cad3eb1f3d43a969373443be98b38639746587e6"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "f5bab04fd1fd5684cbc1586b33371f94a173f35c2fd12ad9a89f013619acbb6f",
+        "UPSTREAM.md": "1301da5ead03f8ca399d125208c77162e69d3f831bac1f0f26f9c90f0806ed20",
+        "agents/openai.yaml": "7de354b4317765628e0135b2781cf258488c0b682feeec9eb79140810ef4993d",
+        "evals/evals.json": "62f3003602836e2b49d797ca582e7703629a6b07b131eb77b51b2bb39fe65775",
+        "references/experiments.md": "bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca",
+        "references/form.md": "49b8f29b3da1ae6510572288cad3eb1f3d43a969373443be98b38639746587e6",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7"
+      }
+    },
+    {
+      "name": "analytics",
+      "source_path": "skills/analytics",
+      "original_files": {
+        "SKILL.md": "c8cb2cbeb318393d3a014ebed366ae13e6cd84d205cb6a2ac03890698639a146",
+        "evals/evals.json": "526f4bf20cedca26906dd0c3dfb6ae67de3f5b17977eb426820ca406c5ce0e59",
+        "references/event-library.md": "c60e3e145e6b06258570350b614913ed9150143b4494a71396abaef479502b05",
+        "references/ga4-implementation.md": "a5715de092984fc148b1825f1edc7730813452876f991819c219b477ef03ed6d",
+        "references/gtm-implementation.md": "0b161102de710c978cc2ac52c78c79f32e184bc028aa946eba18e777d7a60d64"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "c217f6f295e2c1a5a006293d6b332d224f25f496b23a761b9ab4cf2d7c7082c4",
+        "UPSTREAM.md": "0cec8f5dd34e6d38b2cfed44a557e72b08594224441d1e17488d83860b32303a",
+        "agents/openai.yaml": "4c12595662278793b59f79caf8f3149558ce5dc5c22f5ee7b97f29348d56c1d3",
+        "evals/evals.json": "526f4bf20cedca26906dd0c3dfb6ae67de3f5b17977eb426820ca406c5ce0e59",
+        "references/event-library.md": "c60e3e145e6b06258570350b614913ed9150143b4494a71396abaef479502b05",
+        "references/ga4-implementation.md": "a5715de092984fc148b1825f1edc7730813452876f991819c219b477ef03ed6d",
+        "references/gtm-implementation.md": "0b161102de710c978cc2ac52c78c79f32e184bc028aa946eba18e777d7a60d64",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7"
+      }
+    },
+    {
+      "name": "conversion-tracking",
+      "source_path": "skills/conversion-tracking",
+      "original_files": {
+        "SKILL.md": "995b14f6ea66132e6b7e202616500371940adda84983fec3934f18d48b657fde",
+        "assets/gtm-recipes/README.md": "5838272e4d524a4d55aec96faf987921dd888dea3eddff2d4f81e402b999248d",
+        "assets/gtm-recipes/detect/detect-acuity-scheduling.json": "426514803f0ebabf2963c75d952cb2dfcc5cd882591b57bac77baf8de68b1ec7",
+        "assets/gtm-recipes/detect/detect-cal-com.json": "e58f4b6912c2618509c36ebc5d49e66ef593b88d70e9e0fddd28021321c2ccee",
+        "assets/gtm-recipes/detect/detect-calendly.json": "4cc8f3d8b2073a8baf858e81e5311dad5710978c3be504a19e488ed1f9de65e7",
+        "assets/gtm-recipes/detect/detect-contact-form-7.json": "1f3d01757da4e884d7ad3c89875ae5d208ee80faa034ca4264af85b2fb093b37",
+        "assets/gtm-recipes/detect/detect-divi-forms.json": "33ff8fba2a162940e9ffcd851b79db5f48f72e7e19c748f93d258776350ba50a",
+        "assets/gtm-recipes/detect/detect-elementor-forms.json": "b05ff8a7060ed050bf1d9b240c7559e3d0917cc9454dbd7b3b6e841ab7c7ac4a",
+        "assets/gtm-recipes/detect/detect-file-download.json": "ecbb1fd305173b515fbcae61d9d9049c4f59f4253799c9f5a3f50d50c9b659e9",
+        "assets/gtm-recipes/detect/detect-fluent-forms.json": "23a849a28fdcde10f4759acc85209b724d3e85400fe1f1e216d31254220fe92c",
+        "assets/gtm-recipes/detect/detect-formidable-forms.json": "564ba05d8f3d69a3e94ce147314deaf30ba86971a2449ed58f40ce22da4c07af",
+        "assets/gtm-recipes/detect/detect-forminator.json": "c894b5c74462744826829f1d5d0f6e2ee59af6c1bf594fec277d13bb204340a5",
+        "assets/gtm-recipes/detect/detect-framer-forms.json": "38de58405bd4704ecffce5b2f6bad6ffe5d1c0ea847ea164ed8eaf46a51a934d",
+        "assets/gtm-recipes/detect/detect-generic-ajax-form.json": "3d378776b2d4ea8a1c44b4b723b6ded298ccf058bdb016b68d7800934e20f01e",
+        "assets/gtm-recipes/detect/detect-gravity-forms.json": "2441e7792d67007b875282043dec3e81871a6619b196b1356edf1a461014704a",
+        "assets/gtm-recipes/detect/detect-hubspot-forms.json": "8768ee01a80eb8db440d2cbc0929cab1661193e80f431fefb5af1cce4af5cbab",
+        "assets/gtm-recipes/detect/detect-jotform.json": "043e7624be8a1b0b8b3dbb170e164553f202e8926e989e97536b35c09279e3b9",
+        "assets/gtm-recipes/detect/detect-ninja-forms.json": "426bb73b5071bf7d5c2dd6daefd1696c56ef3ed5d820bf7119c511494f9d7d77",
+        "assets/gtm-recipes/detect/detect-phone-click.json": "ae2c337c44569bc942bf6c8230dc692c4a4381d9d3ed82701ab2bd11cac0c894",
+        "assets/gtm-recipes/detect/detect-squarespace-forms.json": "9290e2b9d1bccda6c84337227b2713b11eb0867576633ed275da98351e5bab1c",
+        "assets/gtm-recipes/detect/detect-tally.json": "b035b835b6f10395a76d0bfbd82b2eed4030639dd6a98574b2fe039b9e069118",
+        "assets/gtm-recipes/detect/detect-thank-you-page.json": "335e19b59a140fa8dcbc9e498873c6b1df414aebcb0a4c93e3174f261ae6ead3",
+        "assets/gtm-recipes/detect/detect-typeform.json": "3c51a4c2a7cafb9306097d2678734fcc8de63bb353cb21941bf6e5a21d919225",
+        "assets/gtm-recipes/detect/detect-webflow-forms.json": "3ed98ac500883d03a90e2fc117c2cce25bee3584b5ce5f79ff14da2da2859813",
+        "assets/gtm-recipes/detect/detect-wix-forms.json": "6c0d4f35298c1d08859617054ed3bdca9fb6185fc4757e4ad3179926e59bbdd4",
+        "assets/gtm-recipes/detect/detect-wix-scheduling.json": "1ea831747838a0e82a9c6f952ecadeac6b76fbab5d09fe92fa4a067092129d78",
+        "assets/gtm-recipes/detect/detect-wpforms.json": "aba0f592a18a31be10d97d7f66caeb6f8bccc8905bd2decde69d9446011279da",
+        "assets/gtm-recipes/detect/detect-ws-form.json": "325a98b53de2e2acc4b0f225fd2c636217063b9b8daee379ddcd1d57128acc61",
+        "assets/gtm-recipes/event-map.json": "4d2d09b3dae067247c018f84709a1f43f0aba572c4426732bf522d25f65d56cf",
+        "assets/gtm-recipes/send/ga4.json": "54711eae2bdf3749795d5bbda8032cc998f7c3b24bd9a1513b2a3db1fa6e5554",
+        "assets/gtm-recipes/send/google-ads.json": "7f7eb01043e67e98276777fb6b9765cf76755a792bdba2e0e76f8eeb1d37476b",
+        "assets/gtm-recipes/send/linkedin.json": "8ca48dab89786bc19e54278feb6a090aee5226fc83dc9ce3763888100b361e6c",
+        "assets/gtm-recipes/send/meta.json": "1b16894b8aa42f109d2e166d4cc07424bbfa6022b771bcfbcb23315fe52dc8e5",
+        "assets/gtm-recipes/send/microsoft.json": "db97b1c76a870d5df2f549a6fb4617ea889434b12a6162e3accb38d0ac96c9e4",
+        "assets/gtm-recipes/send/tiktok.json": "c9b83ad1fb510394b29f7c8e69cc1d8a13c98721b71a75a1d1f3aa73101fa493",
+        "assets/snippets/README.md": "bab0e38326820f4b8405c433e7ae8b36b1f4766ada377592415633df0239c82c",
+        "assets/snippets/acuity-scheduling-field.html": "429d45cfe22390749d5a02365b1a75004d3e00a5135dffb3225f35a35d16c6ce",
+        "assets/snippets/acuity-scheduling.js": "803ac3687cd0c1b0aa2595c45c1b6482e88a0e0c8c673062d804bc43284b6b8e",
+        "assets/snippets/cal-com.js": "bbb673890b353c5029d8130f052437e037ca4c0f7ce1d9cf5d6907763ce3caa5",
+        "assets/snippets/calendly.js": "b9dab516bc55fdfd1fed3bc0e9f488594e8a159fe40b63beb38895f47b9df779",
+        "assets/snippets/contact-form-7.js": "154c1d776fe958c1e1df869b6533f068f3046fa987dbb94b9bbf9acfc2c10999",
+        "assets/snippets/divi-forms.js": "4edd76362677a979ef7854c1dee7406141617eb463ca58851816297c7f794522",
+        "assets/snippets/elementor-forms.js": "5d3c725ce0bc87455cccf69d93cfb9a2941c1f0dab522de683242ab4ad8aa7f6",
+        "assets/snippets/file-download.js": "531bfa6201f5f4696e16a1db20c45e2fcedfcdd831cf292d258a06a9538ab2c8",
+        "assets/snippets/fluent-forms.js": "aca359b50acdc6deb3fe0cea43604098bef8adfaa05dff19b285cb143f6b806c",
+        "assets/snippets/formidable-forms.js": "bf4f9e19a6cd809f16e408bcd71443cbcaf90851a0d30cb2a2eeb32217a43050",
+        "assets/snippets/forminator.js": "8791b19a667b5dd9ec5ae3e13f344deefe5976004fdba4cd81c8c5df061b1faa",
+        "assets/snippets/framer-forms.js": "7d0ca007cd3d2bfae6465b6a96a646d3a1835b876a0fe22df6b1dc68f8125a48",
+        "assets/snippets/generic-ajax-form.js": "adc3dbacd6b38ee8a9ff94b4c0ae3c3773826b92fa859d023d292d040e0acaaf",
+        "assets/snippets/gravity-forms.js": "e6a090d8c1647da9df43a6f6da88c6c497683ef1b4af746a4ab4a5a06cc033a9",
+        "assets/snippets/hubspot-forms.js": "ecde2f6d6507a834920de99abf7ae8f78cfdd981d9f03e79dc2b9145962e3071",
+        "assets/snippets/jotform.js": "72321c0cdbac4995e6752741da7afd91c96d1b2ec486a7469b93fef20f1bdff5",
+        "assets/snippets/ninja-forms.js": "930eeddc2988762a402d8047d61bb220347eed44065088123646d8e8c567f0be",
+        "assets/snippets/phone-click.js": "502a1bc554579c36becc08b455c806adec82ca01d43d8d73b1251ab24a513870",
+        "assets/snippets/squarespace-forms.js": "ce2b494dfb658077d16952219e5057e86b097a730826567d451cc77e275fedae",
+        "assets/snippets/tally.js": "2d8e1d098455a371d93870fe195e1ef2ece84b60bf7a92d2867eab9f8421686e",
+        "assets/snippets/thank-you-page.js": "e06594b9ed6ce8d25390594f77caef2996b959ce5853e0f76eebbc85056c87e9",
+        "assets/snippets/typeform.js": "72263000329964dbc4be312d447fd54c3c521cba112348db276c61b82d88487b",
+        "assets/snippets/webflow-forms.js": "70147fe014e39af513f664c1c687b0e0d62c8513cce82f73794eb98c881b4200",
+        "assets/snippets/wix-forms.js": "59dd95eee0a031e2bef15fcec0d0f8e26c0af2c4c16e7c9a222d7ba6b487cd45",
+        "assets/snippets/wix-scheduling.js": "d91348c7ab1c0f6de78ca63ea9743fdfc38de591e3871ead591ad17ff107a4ba",
+        "assets/snippets/wpforms.js": "e19be843ea2a44204b0e4382902f2571349f7596d7bb22bdc11caa2195ca15ed",
+        "assets/snippets/ws-form.js": "fe61749515891e2bd6e32b84bb25ab0845d71b07d3ede81ca9382db252b60662",
+        "evals/evals.json": "965e53f80ab80ccba7c807c5bd519a364f90d2e279aae0af6f265fa18acf59e1",
+        "references/audit-playbook.md": "d55c2b781e84973bccb1e6f75860de0df8cd5ef1db6ab69a036ddb99d698c0cb",
+        "references/browser-side.md": "d31b92606479c5b40340c137f25ff56d427b25dcb952a2be9ea219f71f2a55f3",
+        "references/conversion-moments.md": "827baa68c0fd7f5658db959ab0349012a8012c75d0ab3b2da85ea74ec75f13e6",
+        "references/discrepancies.md": "ad85f70371f2aebf2ab7624969a93a759b0dccc6b4ae046f8c7451e81dca2078",
+        "references/ecommerce-platforms.md": "b7dca043096fa4c9b502c42e1a74ca00231c6c7948d4b8b925c130998f72d36e",
+        "references/google-ads.md": "64b1687bc8bd4993abedf82572be472caee83b43b350f08f7cf061d35fbbb46a",
+        "references/meta.md": "984e85c0c043c56297cc3b0649d0dcd37232f05b75a5ce8127a6b3fe03353741",
+        "references/other-platforms.md": "158f37efe6b569a0d09ae808705182a5718f8dafce90bebffbf406176d90698a",
+        "references/server-side.md": "d47f28a68fa677c9899a771334318989c313d41e1a29fd1d6682fb0195cc851b",
+        "scripts/build_recipe.py": "5024e952becb54eaa1f12e086473aaa93c624cf8c63debf07f83bc802d580bf2",
+        "scripts/check_recipes.py": "47fbf50c39c906e9fe60e25cbef582137fe935fa2808dadfa7bcfd19c7774fa9"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "8fb32ecbdf03b5015d81ae24cedbb0c15a4695aea4518a8fe1549479fb0c4a46",
+        "UPSTREAM.md": "cfe7661d8d59e358b80aa1d6d3fa53d766b6d813f293416abb78dd3366737e1a",
+        "agents/openai.yaml": "610d103de7d7d9fbceffdad0768a42265e866eb03c8346783170f7f340852b02",
+        "assets/gtm-recipes/README.md": "5838272e4d524a4d55aec96faf987921dd888dea3eddff2d4f81e402b999248d",
+        "assets/gtm-recipes/detect/detect-acuity-scheduling.json": "426514803f0ebabf2963c75d952cb2dfcc5cd882591b57bac77baf8de68b1ec7",
+        "assets/gtm-recipes/detect/detect-cal-com.json": "e58f4b6912c2618509c36ebc5d49e66ef593b88d70e9e0fddd28021321c2ccee",
+        "assets/gtm-recipes/detect/detect-calendly.json": "4cc8f3d8b2073a8baf858e81e5311dad5710978c3be504a19e488ed1f9de65e7",
+        "assets/gtm-recipes/detect/detect-contact-form-7.json": "1f3d01757da4e884d7ad3c89875ae5d208ee80faa034ca4264af85b2fb093b37",
+        "assets/gtm-recipes/detect/detect-divi-forms.json": "33ff8fba2a162940e9ffcd851b79db5f48f72e7e19c748f93d258776350ba50a",
+        "assets/gtm-recipes/detect/detect-elementor-forms.json": "b05ff8a7060ed050bf1d9b240c7559e3d0917cc9454dbd7b3b6e841ab7c7ac4a",
+        "assets/gtm-recipes/detect/detect-file-download.json": "ecbb1fd305173b515fbcae61d9d9049c4f59f4253799c9f5a3f50d50c9b659e9",
+        "assets/gtm-recipes/detect/detect-fluent-forms.json": "23a849a28fdcde10f4759acc85209b724d3e85400fe1f1e216d31254220fe92c",
+        "assets/gtm-recipes/detect/detect-formidable-forms.json": "564ba05d8f3d69a3e94ce147314deaf30ba86971a2449ed58f40ce22da4c07af",
+        "assets/gtm-recipes/detect/detect-forminator.json": "c894b5c74462744826829f1d5d0f6e2ee59af6c1bf594fec277d13bb204340a5",
+        "assets/gtm-recipes/detect/detect-framer-forms.json": "38de58405bd4704ecffce5b2f6bad6ffe5d1c0ea847ea164ed8eaf46a51a934d",
+        "assets/gtm-recipes/detect/detect-generic-ajax-form.json": "3d378776b2d4ea8a1c44b4b723b6ded298ccf058bdb016b68d7800934e20f01e",
+        "assets/gtm-recipes/detect/detect-gravity-forms.json": "2441e7792d67007b875282043dec3e81871a6619b196b1356edf1a461014704a",
+        "assets/gtm-recipes/detect/detect-hubspot-forms.json": "8768ee01a80eb8db440d2cbc0929cab1661193e80f431fefb5af1cce4af5cbab",
+        "assets/gtm-recipes/detect/detect-jotform.json": "043e7624be8a1b0b8b3dbb170e164553f202e8926e989e97536b35c09279e3b9",
+        "assets/gtm-recipes/detect/detect-ninja-forms.json": "426bb73b5071bf7d5c2dd6daefd1696c56ef3ed5d820bf7119c511494f9d7d77",
+        "assets/gtm-recipes/detect/detect-phone-click.json": "ae2c337c44569bc942bf6c8230dc692c4a4381d9d3ed82701ab2bd11cac0c894",
+        "assets/gtm-recipes/detect/detect-squarespace-forms.json": "9290e2b9d1bccda6c84337227b2713b11eb0867576633ed275da98351e5bab1c",
+        "assets/gtm-recipes/detect/detect-tally.json": "b035b835b6f10395a76d0bfbd82b2eed4030639dd6a98574b2fe039b9e069118",
+        "assets/gtm-recipes/detect/detect-thank-you-page.json": "335e19b59a140fa8dcbc9e498873c6b1df414aebcb0a4c93e3174f261ae6ead3",
+        "assets/gtm-recipes/detect/detect-typeform.json": "3c51a4c2a7cafb9306097d2678734fcc8de63bb353cb21941bf6e5a21d919225",
+        "assets/gtm-recipes/detect/detect-webflow-forms.json": "3ed98ac500883d03a90e2fc117c2cce25bee3584b5ce5f79ff14da2da2859813",
+        "assets/gtm-recipes/detect/detect-wix-forms.json": "6c0d4f35298c1d08859617054ed3bdca9fb6185fc4757e4ad3179926e59bbdd4",
+        "assets/gtm-recipes/detect/detect-wix-scheduling.json": "1ea831747838a0e82a9c6f952ecadeac6b76fbab5d09fe92fa4a067092129d78",
+        "assets/gtm-recipes/detect/detect-wpforms.json": "aba0f592a18a31be10d97d7f66caeb6f8bccc8905bd2decde69d9446011279da",
+        "assets/gtm-recipes/detect/detect-ws-form.json": "325a98b53de2e2acc4b0f225fd2c636217063b9b8daee379ddcd1d57128acc61",
+        "assets/gtm-recipes/event-map.json": "4d2d09b3dae067247c018f84709a1f43f0aba572c4426732bf522d25f65d56cf",
+        "assets/gtm-recipes/send/ga4.json": "54711eae2bdf3749795d5bbda8032cc998f7c3b24bd9a1513b2a3db1fa6e5554",
+        "assets/gtm-recipes/send/google-ads.json": "7f7eb01043e67e98276777fb6b9765cf76755a792bdba2e0e76f8eeb1d37476b",
+        "assets/gtm-recipes/send/linkedin.json": "8ca48dab89786bc19e54278feb6a090aee5226fc83dc9ce3763888100b361e6c",
+        "assets/gtm-recipes/send/meta.json": "1b16894b8aa42f109d2e166d4cc07424bbfa6022b771bcfbcb23315fe52dc8e5",
+        "assets/gtm-recipes/send/microsoft.json": "db97b1c76a870d5df2f549a6fb4617ea889434b12a6162e3accb38d0ac96c9e4",
+        "assets/gtm-recipes/send/tiktok.json": "c9b83ad1fb510394b29f7c8e69cc1d8a13c98721b71a75a1d1f3aa73101fa493",
+        "assets/snippets/README.md": "bab0e38326820f4b8405c433e7ae8b36b1f4766ada377592415633df0239c82c",
+        "assets/snippets/acuity-scheduling-field.html": "429d45cfe22390749d5a02365b1a75004d3e00a5135dffb3225f35a35d16c6ce",
+        "assets/snippets/acuity-scheduling.js": "803ac3687cd0c1b0aa2595c45c1b6482e88a0e0c8c673062d804bc43284b6b8e",
+        "assets/snippets/cal-com.js": "bbb673890b353c5029d8130f052437e037ca4c0f7ce1d9cf5d6907763ce3caa5",
+        "assets/snippets/calendly.js": "b9dab516bc55fdfd1fed3bc0e9f488594e8a159fe40b63beb38895f47b9df779",
+        "assets/snippets/contact-form-7.js": "154c1d776fe958c1e1df869b6533f068f3046fa987dbb94b9bbf9acfc2c10999",
+        "assets/snippets/divi-forms.js": "4edd76362677a979ef7854c1dee7406141617eb463ca58851816297c7f794522",
+        "assets/snippets/elementor-forms.js": "5d3c725ce0bc87455cccf69d93cfb9a2941c1f0dab522de683242ab4ad8aa7f6",
+        "assets/snippets/file-download.js": "531bfa6201f5f4696e16a1db20c45e2fcedfcdd831cf292d258a06a9538ab2c8",
+        "assets/snippets/fluent-forms.js": "aca359b50acdc6deb3fe0cea43604098bef8adfaa05dff19b285cb143f6b806c",
+        "assets/snippets/formidable-forms.js": "bf4f9e19a6cd809f16e408bcd71443cbcaf90851a0d30cb2a2eeb32217a43050",
+        "assets/snippets/forminator.js": "8791b19a667b5dd9ec5ae3e13f344deefe5976004fdba4cd81c8c5df061b1faa",
+        "assets/snippets/framer-forms.js": "7d0ca007cd3d2bfae6465b6a96a646d3a1835b876a0fe22df6b1dc68f8125a48",
+        "assets/snippets/generic-ajax-form.js": "adc3dbacd6b38ee8a9ff94b4c0ae3c3773826b92fa859d023d292d040e0acaaf",
+        "assets/snippets/gravity-forms.js": "e6a090d8c1647da9df43a6f6da88c6c497683ef1b4af746a4ab4a5a06cc033a9",
+        "assets/snippets/hubspot-forms.js": "ecde2f6d6507a834920de99abf7ae8f78cfdd981d9f03e79dc2b9145962e3071",
+        "assets/snippets/jotform.js": "72321c0cdbac4995e6752741da7afd91c96d1b2ec486a7469b93fef20f1bdff5",
+        "assets/snippets/ninja-forms.js": "930eeddc2988762a402d8047d61bb220347eed44065088123646d8e8c567f0be",
+        "assets/snippets/phone-click.js": "502a1bc554579c36becc08b455c806adec82ca01d43d8d73b1251ab24a513870",
+        "assets/snippets/squarespace-forms.js": "ce2b494dfb658077d16952219e5057e86b097a730826567d451cc77e275fedae",
+        "assets/snippets/tally.js": "2d8e1d098455a371d93870fe195e1ef2ece84b60bf7a92d2867eab9f8421686e",
+        "assets/snippets/thank-you-page.js": "e06594b9ed6ce8d25390594f77caef2996b959ce5853e0f76eebbc85056c87e9",
+        "assets/snippets/typeform.js": "72263000329964dbc4be312d447fd54c3c521cba112348db276c61b82d88487b",
+        "assets/snippets/webflow-forms.js": "70147fe014e39af513f664c1c687b0e0d62c8513cce82f73794eb98c881b4200",
+        "assets/snippets/wix-forms.js": "59dd95eee0a031e2bef15fcec0d0f8e26c0af2c4c16e7c9a222d7ba6b487cd45",
+        "assets/snippets/wix-scheduling.js": "d91348c7ab1c0f6de78ca63ea9743fdfc38de591e3871ead591ad17ff107a4ba",
+        "assets/snippets/wpforms.js": "e19be843ea2a44204b0e4382902f2571349f7596d7bb22bdc11caa2195ca15ed",
+        "assets/snippets/ws-form.js": "fe61749515891e2bd6e32b84bb25ab0845d71b07d3ede81ca9382db252b60662",
+        "evals/evals.json": "965e53f80ab80ccba7c807c5bd519a364f90d2e279aae0af6f265fa18acf59e1",
+        "references/audit-playbook.md": "d55c2b781e84973bccb1e6f75860de0df8cd5ef1db6ab69a036ddb99d698c0cb",
+        "references/browser-side.md": "d31b92606479c5b40340c137f25ff56d427b25dcb952a2be9ea219f71f2a55f3",
+        "references/conversion-moments.md": "827baa68c0fd7f5658db959ab0349012a8012c75d0ab3b2da85ea74ec75f13e6",
+        "references/discrepancies.md": "ad85f70371f2aebf2ab7624969a93a759b0dccc6b4ae046f8c7451e81dca2078",
+        "references/ecommerce-platforms.md": "b7dca043096fa4c9b502c42e1a74ca00231c6c7948d4b8b925c130998f72d36e",
+        "references/google-ads.md": "64b1687bc8bd4993abedf82572be472caee83b43b350f08f7cf061d35fbbb46a",
+        "references/meta.md": "984e85c0c043c56297cc3b0649d0dcd37232f05b75a5ce8127a6b3fe03353741",
+        "references/other-platforms.md": "158f37efe6b569a0d09ae808705182a5718f8dafce90bebffbf406176d90698a",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/server-side.md": "d47f28a68fa677c9899a771334318989c313d41e1a29fd1d6682fb0195cc851b",
+        "scripts/build_recipe.py": "5024e952becb54eaa1f12e086473aaa93c624cf8c63debf07f83bc802d580bf2",
+        "scripts/check_recipes.py": "47fbf50c39c906e9fe60e25cbef582137fe935fa2808dadfa7bcfd19c7774fa9"
+      }
+    },
+    {
+      "name": "attribution",
+      "source_path": "skills/attribution",
+      "original_files": {
+        "SKILL.md": "950ed42f471fa5484eae4c122a2c2cd54aa4916ce65581b5cb2f51fe8c630710",
+        "evals/evals.json": "795a908eacac5cd2213d03d635fd92d94a6d7d66544b68273a0dbdcc2609607b",
+        "references/attribution-models.md": "503c61bf2f38d54755398fc5b1bb0d190e989c59494b097407652ae65bf474af",
+        "references/by-business-type.md": "224a937e09842dbd7a8e00fb67f060cd1ac50f58f9f576be8d015a7c800c9de4",
+        "references/first-party-tracking.md": "a8e12b00d3d049d4b32e3a2785e504936ee7ae33a523a2a1717c338bd4140b6c",
+        "references/measurement-paradigms.md": "5efca610abaa3a80a31cd6be5e835e4449d54462c5314e97b055b86413dee5b2"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "c23514b0647f0f88dc2d7eb67a7a1d6f5c51bb6cba9726f06a908c4b38c78042",
+        "UPSTREAM.md": "e33563e2bbbde253e408bef231ab440bee3d387f4a6819da7b32df29290818af",
+        "agents/openai.yaml": "37c2d59e04a3082245d090c5c58449d16335fd1cd5cd80773ae6227fcfac07fe",
+        "evals/evals.json": "795a908eacac5cd2213d03d635fd92d94a6d7d66544b68273a0dbdcc2609607b",
+        "references/attribution-models.md": "503c61bf2f38d54755398fc5b1bb0d190e989c59494b097407652ae65bf474af",
+        "references/by-business-type.md": "224a937e09842dbd7a8e00fb67f060cd1ac50f58f9f576be8d015a7c800c9de4",
+        "references/first-party-tracking.md": "a8e12b00d3d049d4b32e3a2785e504936ee7ae33a523a2a1717c338bd4140b6c",
+        "references/measurement-paradigms.md": "5efca610abaa3a80a31cd6be5e835e4449d54462c5314e97b055b86413dee5b2",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7"
+      }
+    },
+    {
+      "name": "offers",
+      "source_path": "skills/offers",
+      "original_files": {
+        "SKILL.md": "8d6b9b746a457d0817f6fcd136ddbc9bb8cbfb65e0d2738fa1373cf31dd8b4f0",
+        "evals/evals.json": "abfd1e7a6040a7bd09440d2cda7410a20e20a67a40cb562953d62a0f1c467ece",
+        "references/bonus-stacking.md": "872abbfd14501fd0b097f5ae62b9931571152d43b6690b57df5e65ab48aedfbd",
+        "references/examples.md": "f1033e181845effe8c659800aaf68523686be6bdcb1c5e256c87008e8ea638af",
+        "references/guarantee-design.md": "daa421558b664fe5a335c6cb764d47755799662c79606551a848bba864255c29",
+        "references/offer-anatomy.md": "0810080788bedc9b40dc0aba53109991aa816397f4b45e813289985eb8a64cad",
+        "references/offer-formats.md": "32988e0b187e5ef6cf6a8fa86105612852cbc8edc91eebab098d4da50464aadf",
+        "references/saas-offers.md": "1b21638f0fd2e623f638c13f4b82e2d8c8ecb79d1324f0183f8322db5f5ceea3",
+        "references/scarcity-urgency.md": "4abe51a54188e6c93feb6cface92abc5c8e03212b8ade5bd9366ed159ad3f8f8",
+        "references/value-equation.md": "4610ff358be2be643e7783884e628f01e1e0c56915a7924e5ccb92c096121eff"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "f07325bc9d2294e84a0b2efcfafd321b8954589353fefeb5d3c497fcdacc7333",
+        "UPSTREAM.md": "4bfb09274264476b4a643ef8874f57f3f68f1fc9d747b7936f365c1c53160abd",
+        "agents/openai.yaml": "593617632bcd8283f9d4b0c4bc946e45abba0cfaa7836d2ffe7baa5fa2ec4975",
+        "evals/evals.json": "abfd1e7a6040a7bd09440d2cda7410a20e20a67a40cb562953d62a0f1c467ece",
+        "references/bonus-stacking.md": "872abbfd14501fd0b097f5ae62b9931571152d43b6690b57df5e65ab48aedfbd",
+        "references/examples.md": "f1033e181845effe8c659800aaf68523686be6bdcb1c5e256c87008e8ea638af",
+        "references/guarantee-design.md": "daa421558b664fe5a335c6cb764d47755799662c79606551a848bba864255c29",
+        "references/offer-anatomy.md": "0810080788bedc9b40dc0aba53109991aa816397f4b45e813289985eb8a64cad",
+        "references/offer-formats.md": "32988e0b187e5ef6cf6a8fa86105612852cbc8edc91eebab098d4da50464aadf",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/saas-offers.md": "1b21638f0fd2e623f638c13f4b82e2d8c8ecb79d1324f0183f8322db5f5ceea3",
+        "references/scarcity-urgency.md": "4abe51a54188e6c93feb6cface92abc5c8e03212b8ade5bd9366ed159ad3f8f8",
+        "references/value-equation.md": "4610ff358be2be643e7783884e628f01e1e0c56915a7924e5ccb92c096121eff"
+      }
+    },
+    {
+      "name": "pricing",
+      "source_path": "skills/pricing",
+      "original_files": {
+        "SKILL.md": "b0318f64140e60a28d0cf71b1a6bf2aa214b96ef2bc3253c60d16ae480367d25",
+        "evals/evals.json": "ea2ec5a51826311225c806c9ff3f7fc8c4716b154f7b91aba67ab8639bdb8984",
+        "references/pricing-models.md": "2cdb900b74f56a796c0331725e73eff4ecd84f8021b42efbb0a5b4903d1d9b16",
+        "references/pricing-page-teardown.md": "b58a3bffa58ae7c3a475aba33887daaa98e0dc0de57ea948314256b08aa306ad",
+        "references/research-methods.md": "90337058da40c2fcf858bfee9ee8905ad1dc3a5f90d1878f9a8e9ab79193631b",
+        "references/tier-structure.md": "b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "c755fdb867d0eb873004f7bf6f6a3756fb957cc93aa3376954cbd2fd9135c83b",
+        "UPSTREAM.md": "2d885bc9bc2768501c0bc68d0bb883d6a8a6d3c987b5f6831cb33af18c3d0be5",
+        "agents/openai.yaml": "9879d822eec2179051917aa0939e6cec3d62790237480cd16b6d03e195a0aa65",
+        "evals/evals.json": "ea2ec5a51826311225c806c9ff3f7fc8c4716b154f7b91aba67ab8639bdb8984",
+        "references/pricing-models.md": "2cdb900b74f56a796c0331725e73eff4ecd84f8021b42efbb0a5b4903d1d9b16",
+        "references/pricing-page-teardown.md": "b58a3bffa58ae7c3a475aba33887daaa98e0dc0de57ea948314256b08aa306ad",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/research-methods.md": "90337058da40c2fcf858bfee9ee8905ad1dc3a5f90d1878f9a8e9ab79193631b",
+        "references/tier-structure.md": "b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30"
+      }
+    },
+    {
+      "name": "co-marketing",
+      "source_path": "skills/co-marketing",
+      "original_files": {
+        "SKILL.md": "1073aad4a1452b735e4f70ccb28b7b778658d2eb3b49946eb56265f00a69598c",
+        "evals/evals.json": "4d6693bf2d8490435814090ba204cee5c10648998f5b5699815476736b391d78",
+        "references/partnership-types.md": "1f9d48e29097149530bdfe7b1c553f4b35f64486be86a2c72ca9165c6c2298c4"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "e9fdab51aad31c30813481336c449dc843c0480dcbdbb2f818dec1b7f727cf2c",
+        "UPSTREAM.md": "5c43d4e07b75f9a765135054cfe4d4277a150e44dc4573cc40d10564d7d33d68",
+        "agents/openai.yaml": "c141e77b4cc9ea92b00b38e04159237e387f1ac7d84c00e5cc24ab804eb1c9a0",
+        "evals/evals.json": "4d6693bf2d8490435814090ba204cee5c10648998f5b5699815476736b391d78",
+        "references/partnership-types.md": "1f9d48e29097149530bdfe7b1c553f4b35f64486be86a2c72ca9165c6c2298c4",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7"
+      }
+    },
+    {
+      "name": "referrals",
+      "source_path": "skills/referrals",
+      "original_files": {
+        "SKILL.md": "d1b9e0840b0bc788b51decd5283fba505be29ae22ec8d92e912ebee36020d7fb",
+        "evals/evals.json": "5148d0e25787ed7b2305b3f356ebf4c329181933696d1085a3f53f3b32b0e766",
+        "references/affiliate-operations.md": "fc045ff9c7eba29b13219d56d28fb15c8240439acf2df7e7a6205836948513a0",
+        "references/affiliate-programs.md": "b6fe63ca69462d28b7be74f4f5f4f237d2c9f72179dc5d3ef80f8fab37fccce7",
+        "references/program-examples.md": "3ba131b1d6f77c115134a6d56bbf10709fe4822f65b6a3446605cadeebc6b107",
+        "references/review-platform-rules.md": "9c537eaf4be1799d58f1c563fc660f1b4303c89feded6b2eda304c4ff2c0cb01",
+        "references/review-program-operations.md": "9ca87ad31a59da14f525c273f2c3df90d47fedec7e38d7689529f6ea8e445192",
+        "references/review-programs.md": "b5e3783f12da945bafd88c135e1ccebbf1cfb578715b02c0cf73b50af00aa645",
+        "references/viral-mechanisms.md": "04224240fae94bcf9bc64c7d8cac507bdd570049144e4df33946ac4ae8a483e4"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "b9be592ffb91d54b11a380c15079135c0711500dabf6cc3fc384948ea8d0d82a",
+        "UPSTREAM.md": "c623e187556ee8e4340a306137f2b1bdb865931a640c0f025b3e2c91ecacf1d0",
+        "agents/openai.yaml": "38773d87bc1a0e81fb608687eceeee0990173216a2f0bd7ba3d0a13c3b0a0270",
+        "evals/evals.json": "5148d0e25787ed7b2305b3f356ebf4c329181933696d1085a3f53f3b32b0e766",
+        "references/affiliate-operations.md": "fc045ff9c7eba29b13219d56d28fb15c8240439acf2df7e7a6205836948513a0",
+        "references/affiliate-programs.md": "b6fe63ca69462d28b7be74f4f5f4f237d2c9f72179dc5d3ef80f8fab37fccce7",
+        "references/program-examples.md": "3ba131b1d6f77c115134a6d56bbf10709fe4822f65b6a3446605cadeebc6b107",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/review-platform-rules.md": "9c537eaf4be1799d58f1c563fc660f1b4303c89feded6b2eda304c4ff2c0cb01",
+        "references/review-program-operations.md": "9ca87ad31a59da14f525c273f2c3df90d47fedec7e38d7689529f6ea8e445192",
+        "references/review-programs.md": "b5e3783f12da945bafd88c135e1ccebbf1cfb578715b02c0cf73b50af00aa645",
+        "references/viral-mechanisms.md": "04224240fae94bcf9bc64c7d8cac507bdd570049144e4df33946ac4ae8a483e4"
+      }
+    },
+    {
+      "name": "link-building",
+      "source_path": "skills/link-building",
+      "original_files": {
+        "SKILL.md": "1ba02b7d18057351f654bdd9c4105dfbcbd94e19cf973f5ca1db6115d96ea321",
+        "evals/evals.json": "82898374da08c708e014f73424ddf1e5f8e067cb985ee1e323d550d34d9c72fb",
+        "references/prospecting-and-outreach.md": "06891dbd25cf5b82d7e0cc8093e174d0eef32a3fdebd34f8dcf4bd3c2f366a34",
+        "references/risk-policy.md": "e4e1b74c1e7c782f0c24b4ef0c68acd5969ecb5e5fb3b66840f665d414e1d3a1",
+        "references/tactics.md": "a03af97971dbfcf92000fd4c9c874e9a2af6e035ef135390b0dedfbc620487fc"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "06fff5598ef6c2b307da6d95c45748e5876cf53fdfc2b4cb7d2fb188b0c36451",
+        "UPSTREAM.md": "9cec97a453f41221dc9cf2f9da144b14f48fe51810bb92a0b11667b115577cfb",
+        "agents/openai.yaml": "3ccb535d19daae7558939a98a506b6e18a2b1310b74791a87927eb0b20b772b4",
+        "evals/evals.json": "82898374da08c708e014f73424ddf1e5f8e067cb985ee1e323d550d34d9c72fb",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/prospecting-and-outreach.md": "06891dbd25cf5b82d7e0cc8093e174d0eef32a3fdebd34f8dcf4bd3c2f366a34",
+        "references/risk-policy.md": "e4e1b74c1e7c782f0c24b4ef0c68acd5969ecb5e5fb3b66840f665d414e1d3a1",
+        "references/tactics.md": "a03af97971dbfcf92000fd4c9c874e9a2af6e035ef135390b0dedfbc620487fc"
+      }
+    },
+    {
+      "name": "social",
+      "source_path": "skills/social",
+      "original_files": {
+        "SKILL.md": "861f5b2175dee2726696fc1b91085c9fcbbcdc281c0d5e70235cd84f083b5d90",
+        "evals/evals.json": "1d2592a0cfc6378ba8742ce6e19f5974663b1d8018c4f136e5f529373bf17198",
+        "references/carousel-frameworks.md": "e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247",
+        "references/listening-sources-template.md": "c68bc6f57b0a48c432b1ce72c9324d41a04d0e7784d0bab91afb4a6065a43e38",
+        "references/listening.md": "52cf68aaaa57a69b69b3587ffd9b848a6f1ca7e0d51378f566339ad7f2b730e0",
+        "references/platform-limits.md": "6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
+        "references/platforms.md": "a070eda1f54bdba103a9c89613d83331fc5c53c9e8a48543e0198f1a2995cb0c",
+        "references/post-templates.md": "9cca4680c95801daedfd8acadf9089d0083784c2567784888807569896f71d9b",
+        "references/reverse-engineering.md": "c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f",
+        "references/short-form-video.md": "ed0976bd7ac1f85b7b8c162087e346118f2cf0ef46b3ccafc6a7a329118987d1",
+        "references/x-algorithm.md": "943b2c5a819aad53ebf62a1652adc47956d6fdf738e18cd98eeb609819a66180"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "8a396c8829598c99bc532ba3d4fe707e3034bec2043704e19a9a62371c508fac",
+        "UPSTREAM.md": "60aeeb9ad497038039cfa23a9d23d7e776a9f8bc5db59408c22ea705c776c89b",
+        "agents/openai.yaml": "3cb102767bb5be5b8f14b6ad6c36bbbc2cbccb34e450f9a00a99590ea155fb46",
+        "evals/evals.json": "1d2592a0cfc6378ba8742ce6e19f5974663b1d8018c4f136e5f529373bf17198",
+        "references/carousel-frameworks.md": "e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247",
+        "references/listening-sources-template.md": "c68bc6f57b0a48c432b1ce72c9324d41a04d0e7784d0bab91afb4a6065a43e38",
+        "references/listening.md": "52cf68aaaa57a69b69b3587ffd9b848a6f1ca7e0d51378f566339ad7f2b730e0",
+        "references/platform-limits.md": "6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
+        "references/platforms.md": "a070eda1f54bdba103a9c89613d83331fc5c53c9e8a48543e0198f1a2995cb0c",
+        "references/post-templates.md": "9cca4680c95801daedfd8acadf9089d0083784c2567784888807569896f71d9b",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/reverse-engineering.md": "c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f",
+        "references/short-form-video.md": "ed0976bd7ac1f85b7b8c162087e346118f2cf0ef46b3ccafc6a7a329118987d1",
+        "references/x-algorithm.md": "943b2c5a819aad53ebf62a1652adc47956d6fdf738e18cd98eeb609819a66180"
+      }
+    },
+    {
+      "name": "ads",
+      "source_path": "skills/ads",
+      "original_files": {
+        "SKILL.md": "520e05602d6f58a8e92994360b35550d46aea9560c6648fb96c4c0c4a9c5f07a",
+        "evals/evals.json": "bc20cdba9b09d532b8c5ccdcad4f5b97cfea3fa2021aa07bbc873ebfd7c586d2",
+        "references/abm-playbook.md": "acb5c89ced4497674d012d015504a5c8e17c619bd2fc1f0191d833a9957eb44a",
+        "references/ad-copy-templates.md": "853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206",
+        "references/audience-targeting.md": "21ed7c99fb1124ca38635d6f313cc2f3ca49a192f390cd55293b7bd5a028e1b1",
+        "references/audit-guardrails.md": "ffcbbda4cabd919bce93c11699fac49059dde7d96c64dbf34f77c482420e6667",
+        "references/b2b-paid-playbook.md": "21dc1125905f8d985763996afb24a2bf54539330535b7b2b45c052901c5b2006",
+        "references/creative-research-automation.md": "1dd23921401b5efe2c844e17dee30d6e460da37ef0e42870f9438227d3858a19",
+        "references/google-ads-audit-checklist.md": "4c21526a52869f8045cc2f1c599dfbef487f6390c94cb9b38e8a7e830b1c0279",
+        "references/google-search-playbook.md": "8055f63b09e4869f3a936debd403ebae6459d8089c9a48a6380a6f750900f07e",
+        "references/linkedin-b2b-playbook.md": "8f38aadbf24c1a554fbaa47bf2f24bac0c4773fa16f65d34c1c600e5e3d8a6ee",
+        "references/meta-andromeda-playbook.md": "803653f4096a3ff0b28b40d776bed777036f2cb7126575233b7574f9d3c35717",
+        "references/meta-decision-system.md": "861709bcc4e7467eac7d4de63f0bdd6709eb3c12a1d72b3855dce313ca15407f",
+        "references/operating-check.md": "0039550a0867dc5f80595b824f8d6a6a298c5777ef2d0e54d225c1405f900de3",
+        "references/payback-period.md": "77b0f35b65b35cdee53881105a16498e3e4538b657923a176b99a19b807daba1",
+        "references/platform-setup-checklists.md": "b86e206f8c7233c235d7d385a69e17fac16ac001ab130242b7700fe650752f69",
+        "references/reading-google-ads-data.md": "e5bb10f5bd81eabaae63c005a9be8c3f70d63df60e192dcd37faf3718ff0fd09",
+        "references/rsa-output-spec.md": "285fec5c1671c9cc1a4cdfbcf06d8a54a022cbad52693941457d90e1f2c5f503"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "3b72576d6ea96a5178cd1c78a2c826207896d824d84732cb4d3644f104d0745c",
+        "UPSTREAM.md": "787acad3d722fc5db51baf92cdbf2e7e072fc5cf8d9480d0ee6f440cd1d51cd2",
+        "agents/openai.yaml": "29f977153387b09695c610c65ce3a79643479ae1dac1d71a1447ce3825f7b3cb",
+        "evals/evals.json": "bc20cdba9b09d532b8c5ccdcad4f5b97cfea3fa2021aa07bbc873ebfd7c586d2",
+        "references/abm-playbook.md": "acb5c89ced4497674d012d015504a5c8e17c619bd2fc1f0191d833a9957eb44a",
+        "references/ad-copy-templates.md": "853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206",
+        "references/audience-targeting.md": "21ed7c99fb1124ca38635d6f313cc2f3ca49a192f390cd55293b7bd5a028e1b1",
+        "references/audit-guardrails.md": "ffcbbda4cabd919bce93c11699fac49059dde7d96c64dbf34f77c482420e6667",
+        "references/b2b-paid-playbook.md": "21dc1125905f8d985763996afb24a2bf54539330535b7b2b45c052901c5b2006",
+        "references/creative-research-automation.md": "1dd23921401b5efe2c844e17dee30d6e460da37ef0e42870f9438227d3858a19",
+        "references/google-ads-audit-checklist.md": "468a1af1b3f09254c11cb65898c998478c7ee86a89632cb62474ed02707f8e5a",
+        "references/google-search-playbook.md": "8055f63b09e4869f3a936debd403ebae6459d8089c9a48a6380a6f750900f07e",
+        "references/linkedin-b2b-playbook.md": "8f38aadbf24c1a554fbaa47bf2f24bac0c4773fa16f65d34c1c600e5e3d8a6ee",
+        "references/meta-andromeda-playbook.md": "803653f4096a3ff0b28b40d776bed777036f2cb7126575233b7574f9d3c35717",
+        "references/meta-decision-system.md": "861709bcc4e7467eac7d4de63f0bdd6709eb3c12a1d72b3855dce313ca15407f",
+        "references/operating-check.md": "0039550a0867dc5f80595b824f8d6a6a298c5777ef2d0e54d225c1405f900de3",
+        "references/payback-period.md": "77b0f35b65b35cdee53881105a16498e3e4538b657923a176b99a19b807daba1",
+        "references/platform-setup-checklists.md": "b86e206f8c7233c235d7d385a69e17fac16ac001ab130242b7700fe650752f69",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/reading-google-ads-data.md": "e5bb10f5bd81eabaae63c005a9be8c3f70d63df60e192dcd37faf3718ff0fd09",
+        "references/rsa-output-spec.md": "285fec5c1671c9cc1a4cdfbcf06d8a54a022cbad52693941457d90e1f2c5f503"
+      }
+    },
+    {
+      "name": "ad-creative",
+      "source_path": "skills/ad-creative",
+      "original_files": {
+        "SKILL.md": "7af23285e4ac6df65f2f23e940279cdc9a70280a908a34214e86954ab7b0b000",
+        "assets/creative-review-template.html": "0ca7cce4fa809235aee776606205925d8dc01bde8a8325e2af7197d86394d3b7",
+        "evals/evals.json": "a688328a32f7ff3ffd975a2e4a31b5bc2a2c5dae86af0656f8b0ec61e9f8c916",
+        "references/awareness-headlines.md": "0f9b2408e402ad03956ff84bf31e5c594371dd3e2974c5390c42af4e3c60ed4d",
+        "references/creative-review-page.md": "03518911b1648bce12a3d579c5979b97442af50de24ff74809a43ba3395dcb3a",
+        "references/creative-roadmap.md": "a0be737841d8a73f0cf02094c9ed1e3f7c050e1c6f867794b1fa8b64dbf3b50e",
+        "references/generative-tools.md": "9c977cb5a0e5c841ebf98bc1fd531aa0fb1b949aef14093d4a0146f19606f7a5",
+        "references/hook-system.md": "2967ecbf32423bbb70ca9587b0af8d257466c852106fe909f6447bbab9a18002",
+        "references/imessage-video-ads.md": "99627f4a43f9ee8394be49c95bb865496037cf9901dfcdc1d1b0af9d86396aec",
+        "references/meta-creative-formats.md": "09720c4550761365a8c93c8587fe629c87718dbb331677312d93e5b2faa9761f",
+        "references/motion-video-ads.md": "c64e83199f0316e12e7811667f09a6475a34044c8eec2e3ba549faf9c33fc28c",
+        "references/platform-specs.md": "de69753161071a8d3e4d244280562810a6c4d6ae2696c5a21940f983abd0aa8e",
+        "references/short-form-video-specs.md": "1aa1cc498e350ed00ec4783b60d2eddee5bc98f25750761f6086742d0758f953",
+        "references/static-ad-templates.md": "fc93d3f5fa6b3442cc1c6785eda05979da0d299c640d5f0a277033209d68e651"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "e14bc5b3e292eca3741ee14452df74da3680fb71f7faaa249ea46d532a16d9fd",
+        "UPSTREAM.md": "b58a56f6baf9c93ef7200fc6ac2da6910fdb686cb1ba9e537bac3686b5e3b7d6",
+        "agents/openai.yaml": "fb206abb22931b6d3ef63c2c2ceb71b279550f770d3492d3670559f2bc2e31dd",
+        "assets/creative-review-template.html": "0ca7cce4fa809235aee776606205925d8dc01bde8a8325e2af7197d86394d3b7",
+        "evals/evals.json": "a688328a32f7ff3ffd975a2e4a31b5bc2a2c5dae86af0656f8b0ec61e9f8c916",
+        "references/awareness-headlines.md": "0f9b2408e402ad03956ff84bf31e5c594371dd3e2974c5390c42af4e3c60ed4d",
+        "references/creative-review-page.md": "03518911b1648bce12a3d579c5979b97442af50de24ff74809a43ba3395dcb3a",
+        "references/creative-roadmap.md": "a0be737841d8a73f0cf02094c9ed1e3f7c050e1c6f867794b1fa8b64dbf3b50e",
+        "references/generative-tools.md": "9c977cb5a0e5c841ebf98bc1fd531aa0fb1b949aef14093d4a0146f19606f7a5",
+        "references/hook-system.md": "2967ecbf32423bbb70ca9587b0af8d257466c852106fe909f6447bbab9a18002",
+        "references/imessage-video-ads.md": "99627f4a43f9ee8394be49c95bb865496037cf9901dfcdc1d1b0af9d86396aec",
+        "references/meta-creative-formats.md": "09720c4550761365a8c93c8587fe629c87718dbb331677312d93e5b2faa9761f",
+        "references/motion-video-ads.md": "c64e83199f0316e12e7811667f09a6475a34044c8eec2e3ba549faf9c33fc28c",
+        "references/platform-specs.md": "de69753161071a8d3e4d244280562810a6c4d6ae2696c5a21940f983abd0aa8e",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/short-form-video-specs.md": "1aa1cc498e350ed00ec4783b60d2eddee5bc98f25750761f6086742d0758f953",
+        "references/static-ad-templates.md": "fc93d3f5fa6b3442cc1c6785eda05979da0d299c640d5f0a277033209d68e651"
+      }
+    },
+    {
+      "name": "influencer-marketing",
+      "source_path": "skills/influencer-marketing",
+      "original_files": {
+        "SKILL.md": "219b2c3f68ac0416ad254a6113d2ab8023d9f2e1e3b5f9d1da94c9f2598060d1",
+        "evals/evals.json": "b3cbbf95002a892cd311a99977ace2c6ca550c342d7a8f80994ba103f88d0a2a",
+        "references/newsletter-sponsorships.md": "57b9dc26204957bf9bd53ea3e4f739bafe949b1336c3e227ce3a0b563776e46d",
+        "references/paid-ads-creator-program.md": "85b6fde260cd1e0950dc6c54982577ed90a0262a62a7753626c0f888d0cc0a2e",
+        "references/telegram-channels.md": "3a820b156847fe748ae47c1c783e39d6436493c2b55f428cfa19f69d78b5d8d5",
+        "references/ugc-creator-program.md": "8bb429d14c0e6a7f631a79652152de67a19e071c82d9a7b55543fd0cc7ad038b"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "b47601394970ff5638c2e5486bdf239db143c966314d859c8060ee20b0bfd8cb",
+        "UPSTREAM.md": "8d27fc931b20e1be76c627900a123061dd4ea6dc7bdecc305989784d1e16966c",
+        "agents/openai.yaml": "35e4e812b29adf44dd2f0693d65cc9141b8d77021d33c779db8a551a4f4c4b93",
+        "evals/evals.json": "b3cbbf95002a892cd311a99977ace2c6ca550c342d7a8f80994ba103f88d0a2a",
+        "references/newsletter-sponsorships.md": "57b9dc26204957bf9bd53ea3e4f739bafe949b1336c3e227ce3a0b563776e46d",
+        "references/paid-ads-creator-program.md": "85b6fde260cd1e0950dc6c54982577ed90a0262a62a7753626c0f888d0cc0a2e",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/telegram-channels.md": "3a820b156847fe748ae47c1c783e39d6436493c2b55f428cfa19f69d78b5d8d5",
+        "references/ugc-creator-program.md": "8bb429d14c0e6a7f631a79652152de67a19e071c82d9a7b55543fd0cc7ad038b"
+      }
+    },
+    {
+      "name": "emails",
+      "source_path": "skills/emails",
+      "original_files": {
+        "SKILL.md": "8709631cc21717d17db9bb7e787ea44768d77182daf9846de8718a2ae7433b91",
+        "evals/evals.json": "b90182c8b6edbb866ef82ad022db3d2fe8598e7329469117fb39edd9ab069f67",
+        "references/copy-guidelines.md": "02f08897e4aa99ecc4ec1893d61d0c26d0c5e62e09af26f175087455e9b68e01",
+        "references/email-types.md": "a5dd4f0555a7b21d2ff426948d15657825b9d16265652563f5e272d2e1879bfd",
+        "references/sequence-templates.md": "f8f318f10e29abcd009cbee29e2bd178981d96c973099b508d30af6c10ab8d79"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "52fffcb55d28ffabdb241af28149a7d26584ad3c56d32816e69262a149e5883c",
+        "UPSTREAM.md": "ba6dec60c7eaa3a61aeacf0dec303b598be7deff73c1cfa7866566cc8162a240",
+        "agents/openai.yaml": "c5d0227c590714302cfc82256414e86fcc7b42fd75a33919265cdddf58c55e9f",
+        "evals/evals.json": "b90182c8b6edbb866ef82ad022db3d2fe8598e7329469117fb39edd9ab069f67",
+        "references/copy-guidelines.md": "02f08897e4aa99ecc4ec1893d61d0c26d0c5e62e09af26f175087455e9b68e01",
+        "references/email-types.md": "a5dd4f0555a7b21d2ff426948d15657825b9d16265652563f5e272d2e1879bfd",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/sequence-templates.md": "f8f318f10e29abcd009cbee29e2bd178981d96c973099b508d30af6c10ab8d79"
+      }
+    },
+    {
+      "name": "ab-testing",
+      "source_path": "skills/ab-testing",
+      "original_files": {
+        "SKILL.md": "c5c547f2ccee5034bf24b1afa5e7c1ae2913f2618bc65f3e0788a1c55f7759b9",
+        "evals/evals.json": "fb32e1f75fc70e339e71f88b1cf10bd9f3d1835178a62d1156ed7dddc278f061",
+        "references/sample-size-guide.md": "53525ddf0e904477262dc3dbc89d4bd4205f2e07d655616de91e22a310f768c4",
+        "references/test-templates.md": "761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812"
+      },
+      "local_files": {
+        "LICENSE.upstream.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+        "SKILL.md": "646bcff5df62a022a86f0f8bfd8f5756035b1eca2dd3b2f31ca94a101f8f939a",
+        "UPSTREAM.md": "41c71fea595d7bfb22bd7b705e3aad6cdee1fdf4aaea20bce06a29fd24d904ab",
+        "agents/openai.yaml": "f4e78613dd9b76a216305f14e84a6ac2d3d47e2a8822dfc607267c0b8a83c9c5",
+        "evals/evals.json": "fb32e1f75fc70e339e71f88b1cf10bd9f3d1835178a62d1156ed7dddc278f061",
+        "references/project-context-and-evidence.md": "6ea1553650926701354b8363d0f541c20fd04c18a08ab09f0bc8d83f2b9da2f7",
+        "references/sample-size-guide.md": "53525ddf0e904477262dc3dbc89d4bd4205f2e07d655616de91e22a310f768c4",
+        "references/test-templates.md": "761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812"
+      }
+    }
+  ]
+}

@@ -1,23 +1,24 @@
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = merge(common, {
   mode: 'production',
   plugins: [
-    new HtmlWebpackPlugin({
-      template: './index.html',
-    }),
     new CopyPlugin({
       patterns: [
+        { from: 'index.html', to: 'index.html' },
+        { from: 'en', to: 'en', globOptions: { ignore: ['**/sonder_kaco_light.html'] } },
+        { from: 'fi', to: 'fi' },
         { from: 'img', to: 'img' },
-        { from: 'css', to: 'css' },
-        { from: 'js/vendor', to: 'js/vendor' },
+        { from: 'css/weddings.css', to: 'css/weddings.css' },
+        { from: 'fonts', to: 'fonts' },
+        { from: 'download', to: 'download' },
         { from: 'icon.svg', to: 'icon.svg' },
-        // { from: 'favicon.ico', to: 'favicon.ico' },
+        { from: 'favicon_*.png', to: '[name][ext]' },
+        { from: 'sonder-moments-*.webp', to: '[name][ext]' },
         { from: 'robots.txt', to: 'robots.txt' },
-        // { from: 'icon.png', to: 'icon.png' },
+        { from: 'sitemap.xml', to: 'sitemap.xml' },
         { from: '404.html', to: '404.html' },
         { from: 'site.webmanifest', to: 'site.webmanifest' },
       ],

@@ -1,0 +1,317 @@
+{
+  "locations": [
+    {
+      "name": "The Terwa",
+      "source": "XGbWo8vvK0E"
+    },
+    {
+      "name": "Seurasaaren Juhlatalo",
+      "source": "I8D0XdR3MyQ"
+    },
+    {
+      "name": "Suomenlinna",
+      "source": "cyn8d7gmHCw"
+    },
+    {
+      "name": "Solo Sokos Hotel Pier 4",
+      "source": "-OtFJqj4MxU"
+    },
+    {
+      "name": "Valley Side Barn",
+      "source": "hendinLY4-M"
+    }
+  ],
+  "existing": [
+    {
+      "title": {
+        "en": "Tytherington wedding film",
+        "fi": "Tytheringtonin hääelokuva"
+      },
+      "source": "tAc2xctW__k"
+    },
+    {
+      "title": {
+        "en": "Upton Barn & Walled Garden",
+        "fi": "Upton Barn & Walled Garden"
+      },
+      "source": "4GEdmqcDUhM"
+    },
+    {
+      "title": {
+        "en": "St Austell, Cornwall",
+        "fi": "St Austell, Cornwall"
+      },
+      "source": "wIo0nIzf4nw"
+    }
+  ],
+  "reels": [
+    {
+      "source": "67gLO_u0628",
+      "kind": "reel",
+      "venue": "The Terwa",
+      "place": {
+        "en": "Loppi, Finland",
+        "fi": "Loppi, Suomi"
+      },
+      "slug": {
+        "en": "terwa-wedding-party-reel",
+        "fi": "terwa-haareivit"
+      },
+      "title": {
+        "en": "The Terwa wedding party reel, Loppi",
+        "fi": "Hääreivit The Terwa, Loppi"
+      },
+      "description": {
+        "en": "A 58-second wedding party reel from The Terwa in Loppi. Dancing, laughter and the energy of a celebration captured by Sonder Moments Weddings.",
+        "fi": "The Terwan hääreivit Lopella: 58 sekuntia tanssia, naurua ja juhlan energiaa. Katso Sonder Momentsin lyhyt häävideo."
+      },
+      "story": {
+        "en": [
+          "The dance floor became a rave and the guests were ready to keep going. This 58-second film from The Terwa in Loppi captures the energy, laughter and fun of the wedding party.",
+          "It is a short burst of the celebration. For more of the day’s story, watch the longer Terwa wedding film below."
+        ],
+        "fi": [
+          "Tanssilattia muuttui reiviluolaksi, eikä juhlakansalla ollut aikomustakaan lopettaa. Tämä 58 sekunnin video The Terwasta Lopelta tallentaa hääbileiden energian, naurun ja hulluttelun.",
+          "Lyhyt video on pieni pala juhlan tunnelmaa. Jos haluat nähdä enemmän päivän tarinaa, löydät alta pidemmän Terwan hääelokuvan."
+        ]
+      },
+      "uploadDate": "2026-11-22T07:38:59-08:00",
+      "duration": "PT0M58S",
+      "thumbnailUrl": "https://i.ytimg.com/vi/67gLO_u0628/maxresdefault.jpg",
+      "related": [
+        "XGbWo8vvK0E"
+      ]
+    },
+    {
+      "source": "-OtFJqj4MxU",
+      "kind": "reel",
+      "venue": "Solo Sokos Hotel Pier 4",
+      "place": {
+        "en": "Helsinki, Finland",
+        "fi": "Helsinki, Suomi"
+      },
+      "slug": {
+        "en": "hotel-pier-4-bridal-film",
+        "fi": "hotelli-pier-4-morsiusvideo"
+      },
+      "title": {
+        "en": "Bridal inspiration at Solo Sokos Hotel Pier 4, Helsinki",
+        "fi": "Morsiusunelmia Solo Sokos Hotel Pier 4:ssä, Helsinki"
+      },
+      "description": {
+        "en": "A 52-second bridal inspiration film at Solo Sokos Hotel Pier 4 in Helsinki. A glimpse of wedding-morning anticipation by Sonder Moments Weddings.",
+        "fi": "Morsiusunelmia Solo Sokos Hotel Pier 4:ssä Helsingissä. Katso 52 sekunnin morsiusvideo ja pieni kurkistus hääaamun tunnelmaan."
+      },
+      "story": {
+        "en": [
+          "A little glimpse of the anticipation before a wedding day. Filmed at Solo Sokos Hotel Pier 4 in Helsinki, this 52-second bridal inspiration film focuses on those small details and feelings before everything begins.",
+          "It sits alongside the wedding party reel and Suomenlinna trailer in the short-film collection, showing another part of the story a wedding film can hold."
+        ],
+        "fi": [
+          "Pieni kurkistus hääpäivää edeltävään odotukseen. Solo Sokos Hotel Pier 4:ssä Helsingissä kuvattu 52 sekunnin morsiusvideo keskittyy yksityiskohtiin ja tunteisiin ennen kuin kaikki alkaa.",
+          "Lyhyiden videoiden kokoelmassa tämä morsiusvideo tuo hääbileiden ja Suomenlinnan trailerin rinnalle erilaisen tunnelman. Myös valmistautumisen hetket kuuluvat päivän tarinaan."
+        ]
+      },
+      "uploadDate": "2026-11-22T06:50:15-08:00",
+      "duration": "PT0M52S",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-OtFJqj4MxU/maxresdefault.jpg",
+      "related": []
+    },
+    {
+      "source": "tpiBjKeqpUQ",
+      "kind": "reel",
+      "venue": "Suomenlinna",
+      "place": {
+        "en": "Helsinki, Finland",
+        "fi": "Helsinki, Suomi"
+      },
+      "slug": {
+        "en": "suomenlinna-wedding-trailer",
+        "fi": "suomenlinna-haatraileri"
+      },
+      "title": {
+        "en": "Suomenlinna wedding trailer, Helsinki",
+        "fi": "Häätraileri Suomenlinnassa, Helsinki"
+      },
+      "description": {
+        "en": "A 36-second wedding trailer from Suomenlinna, Helsinki. Watch this short film, then explore the longer wedding highlights by Sonder Moments Weddings.",
+        "fi": "36 sekunnin häätraileri Suomenlinnasta Helsingistä. Katso lyhyt häävideo ja tutustu myös pidempään Sonder Momentsin hääelokuvaan."
+      },
+      "story": {
+        "en": [
+          "A 36-second introduction to a wedding in Suomenlinna. This short trailer offers a quick taste of the celebration before you settle in for the longer highlights film.",
+          "You can watch both versions here, with the longer Suomenlinna wedding film linked below."
+        ],
+        "fi": [
+          "36 sekunnin kurkistus häihin Suomenlinnassa. Lyhyt traileri tarjoaa ensimmäisen maistiaisen juhlan tunnelmasta ennen pidempää kohokohtaelokuvaa.",
+          "Voit katsoa molemmat versiot täällä. Löydät alta linkin pidempään Suomenlinnan häävideoon."
+        ]
+      },
+      "uploadDate": "2025-10-20T02:41:18-07:00",
+      "duration": "PT0M36S",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tpiBjKeqpUQ/maxresdefault.jpg",
+      "related": [
+        "cyn8d7gmHCw"
+      ]
+    }
+  ],
+  "featured": [
+    {
+      "source": "XGbWo8vvK0E",
+      "kind": "film",
+      "venue": "The Terwa",
+      "place": {
+        "en": "Loppi, Finland",
+        "fi": "Loppi, Suomi"
+      },
+      "slug": {
+        "en": "terwa-wedding-film",
+        "fi": "terwa-haavideo"
+      },
+      "title": {
+        "en": "The Terwa wedding film, Loppi",
+        "fi": "Häävideo The Terwa, Loppi"
+      },
+      "description": {
+        "en": "Love, happy tears and a dance floor full of energy. Watch this cinematic wedding film at The Terwa in Loppi, Finland, by Sonder Moments Weddings.",
+        "fi": "Rakkautta, onnenkyyneleitä ja tanssilattia täynnä energiaa. Katso Sonder Momentsin elokuvallinen häävideo The Terwasta, Lopelta."
+      },
+      "story": {
+        "en": [
+          "Love, laughter, happy tears and a party for the books. This wedding at The Terwa in Finland brought all of that together, with an energetic dance floor that was very much part of the story.",
+          "The longer wedding film gives those feelings room to unfold. Watch the celebration here, or enjoy the short party reel for a little burst of the evening’s energy."
+        ],
+        "fi": [
+          "Rakkautta, naurua, onnenkyyneleitä ja juhlat, jotka jäivät mieleen. Näissä The Terwan häissä tanssilattian energia kuului yhtä lailla päivän tarinaan kuin herkät hetket.",
+          "Pidempi hääelokuva antaa tunnelman rakentua rauhassa. Katso juhla tästä tai kurkista lyhyeen hääreivivideoon, joka tiivistää illan energian alle minuuttiin."
+        ]
+      },
+      "uploadDate": "2026-11-21T10:34:22-08:00",
+      "duration": "PT5M32S",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XGbWo8vvK0E/maxresdefault.jpg",
+      "related": [
+        "67gLO_u0628"
+      ]
+    },
+    {
+      "source": "I8D0XdR3MyQ",
+      "kind": "film",
+      "venue": "Seurasaaren Juhlatalo",
+      "place": {
+        "en": "Seurasaari, Helsinki, Finland",
+        "fi": "Seurasaari, Helsinki, Suomi"
+      },
+      "slug": {
+        "en": "seurasaaren-juhlatalo-wedding-film",
+        "fi": "seurasaaren-juhlatalo-haavideo"
+      },
+      "title": {
+        "en": "Seurasaaren Juhlatalo wedding film, Helsinki",
+        "fi": "Häävideo Seurasaaren Juhlatalolla, Helsinki"
+      },
+      "description": {
+        "en": "A ferry ride, a wooden church and Helan går. Watch this Finnish wedding film at Seurasaaren Juhlatalo in Helsinki, by Sonder Moments Weddings.",
+        "fi": "Lauttamatka, puukirkko ja Helan går. Katso Sonder Momentsin häävideo Seurasaaren Juhlatalolta Helsingistä ja palaa päivän tunnelmaan."
+      },
+      "story": {
+        "en": [
+          "Guests came from around the world for this wedding in Seurasaari. The day began with preparations at Hanaholmen Hotel, followed by a party ferry across the water and a ceremony in a traditional Finnish wooden church.",
+          "Then it was time for Seurasaaren Juhlatalo: sing-alongs, Helan går, laughter and a dance floor full of people celebrating together. This wedding film follows the journey through the day, keeping those shared moments at the centre of the story."
+        ],
+        "fi": [
+          "Vieraita saapui eri puolilta maailmaa juhlimaan häitä Seurasaareen. Päivä alkoi valmistautumisella Hanaholmenin hotellissa. Sieltä matka jatkui juhlatunnelmaisella lautalla ja vihkimiseen perinteisessä suomalaisessa puukirkossa.",
+          "Seurasaaren Juhlatalolla juhla jatkui yhteislaululla, Helan gårilla, naurulla ja tanssilla. Hääelokuva kulkee päivän mukana ja tallentaa ne yhteiset hetket, jotka tekivät juhlasta juuri tämän parin näköisen."
+        ]
+      },
+      "uploadDate": "2026-11-21T12:10:56-08:00",
+      "duration": "PT4M10S",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8D0XdR3MyQ/maxresdefault.jpg",
+      "related": []
+    },
+    {
+      "source": "cyn8d7gmHCw",
+      "kind": "film",
+      "venue": "Suomenlinna",
+      "place": {
+        "en": "Helsinki, Finland",
+        "fi": "Helsinki, Suomi"
+      },
+      "slug": {
+        "en": "suomenlinna-wedding-film",
+        "fi": "suomenlinna-haavideo"
+      },
+      "title": {
+        "en": "Suomenlinna wedding highlights film, Helsinki",
+        "fi": "Häävideo Suomenlinnassa, Helsinki"
+      },
+      "description": {
+        "en": "Watch a four-minute wedding highlights film from Suomenlinna, Helsinki. Cinematic wedding videography by Sonder Moments Weddings.",
+        "fi": "Katso neljän minuutin häävideo Suomenlinnasta Helsingistä. Elokuvallinen häätarina ja päivän tunnelma, kuvaajana Sonder Moments Weddings."
+      },
+      "story": {
+        "en": [
+          "A wedding in Suomenlinna, told in a four-minute highlights film. This is the longer of the two Suomenlinna videos in the collection, bringing together a fuller glimpse of the wedding day.",
+          "If you would like a quick introduction first, the 36-second trailer is linked below. Both films are part of my wedding videography work in Helsinki."
+        ],
+        "fi": [
+          "Häät Suomenlinnassa neljän minuutin kohokohtaelokuvana. Tämä on kokoelman kahdesta Suomenlinna-videosta pidempi ja antaa laajemman katsauksen hääpäivän tunnelmaan.",
+          "Jos haluat ensin lyhyen kurkistuksen, löydät alta myös 36 sekunnin trailerin. Molemmat videot ovat osa häävideokuvaustani Helsingissä."
+        ]
+      },
+      "uploadDate": "2025-09-29T06:46:46-07:00",
+      "duration": "PT4M1S",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyn8d7gmHCw/maxresdefault.jpg",
+      "related": [
+        "tpiBjKeqpUQ"
+      ]
+    },
+    {
+      "source": "hendinLY4-M",
+      "kind": "film",
+      "venue": "Valley Side Barn",
+      "place": {
+        "en": "Tiverton, Devon, England",
+        "fi": "Tiverton, Devon, Englanti"
+      },
+      "slug": {
+        "en": "valley-side-barn-wedding-film",
+        "fi": "valley-side-barn-haavideo"
+      },
+      "title": {
+        "en": "Valley Side Barn wedding film, Tiverton",
+        "fi": "Häävideo Valley Side Barnissa, Tiverton"
+      },
+      "description": {
+        "en": "From a dating app to an August wedding in the English countryside. Watch the Valley Side Barn wedding film in Tiverton by Sonder Moments Weddings.",
+        "fi": "Deittisovelluksesta elokuisiin häihin Englannin maaseudulle. Katso Sonder Momentsin häävideo Valley Side Barnista, Tivertonista."
+      },
+      "story": {
+        "en": [
+          "Their story began on a dating app and led to an August wedding in the English countryside. Valley Side Barn in Tiverton was the setting for a day filled with laughter, personal touches and heartfelt moments.",
+          "This film brings those moments together into a little story of the two of them. It is a glimpse of the feeling I want couples to come back to when they watch their wedding film, whether their day takes place in Finland or abroad."
+        ],
+        "fi": [
+          "Tarina alkoi deittisovelluksesta ja johti elokuisiin häihin Englannin maaseudulla. Valley Side Barn Tivertonissa tarjosi puitteet päivälle, joka oli täynnä naurua, henkilökohtaisia yksityiskohtia ja herkkiä hetkiä.",
+          "Hääelokuva kokoaa nämä hetket pieneksi tarinaksi heistä kahdesta. Tähän tunnelmaan haluan parien voivan palata häävideonsa äärellä, vietetäänpä häitä Suomessa tai ulkomailla."
+        ]
+      },
+      "uploadDate": "2026-11-21T11:29:46-08:00",
+      "duration": "PT3M10S",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hendinLY4-M/maxresdefault.jpg",
+      "related": []
+    }
+  ],
+  "selection": {
+    "channel": "https://www.youtube.com/@SonderMomentsWeddings/videos",
+    "observedOn": "2026-11-22",
+    "latestUploadIds": [
+      "67gLO_u0628",
+      "-OtFJqj4MxU",
+      "I8D0XdR3MyQ",
+      "hendinLY4-M",
+      "XGbWo8vvK0E",
+      "tpiBjKeqpUQ",
+      "cyn8d7gmHCw"
+    ]
+  }
+}

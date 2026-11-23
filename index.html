@@ -31,10 +31,10 @@
 
     // Redirect to appropriate language page
     const targetUrl = languageMapping[browserLang] || '/en/'; // Default to English
-    window.location.replace(targetUrl);
+    window.location.replace(targetUrl + window.location.hash);
   </script>
 </head>
 <body>
-<p>Redirecting to your preferred language...</p>
+<p>Choose your language: <a href="/fi/" lang="fi">Suomi</a> · <a href="/en/" lang="en">English</a></p>
 </body>
 </html>

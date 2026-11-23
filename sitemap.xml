@@ -1,49 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Root URL -->
-  <url>
-    <loc>https://sondermomentsphotography.com</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/en/" />
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/fi/" />
-  </url>
-
-  <!-- English version -->
-  <url>
-    <loc>https://sondermomentsphotography.com/en/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/en/" />
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/fi/" />
-  </url>
-
-  <!-- Finnish version -->
-  <url>
-    <loc>https://sondermomentsphotography.com/fi/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sondermomentsphotography.com/en/" />
-    <xhtml:link rel="alternate" hreflang="fi" href="https://sondermomentsphotography.com/fi/" />
-  </url>
-
-  <!-- English Pricing PDFs (Removed Incorrect Hreflang) -->
-  <url>
-    <loc>https://sondermomentsphotography.com/download/videography-price-guide-new.pdf</loc>
-    <lastmod>2025-10-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Finnish Pricing PDFs (Removed Incorrect Hreflang) -->
-  <url>
-    <loc>https://sondermomentsphotography.com/download/Haavideo-hinnasto-uusi.pdf</loc>
-    <lastmod>2025-10-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url><loc>https://sondermomentsphotography.com/en/</loc></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-photography/</loc></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-films/</loc></url>
+  <url><loc>https://sondermomentsphotography.com/fi/</loc></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavalokuvaus/</loc></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavideot/</loc></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-films/terwa-wedding-film/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/XGbWo8vvK0E/maxresdefault.jpg</video:thumbnail_loc><video:title>The Terwa wedding film, Loppi</video:title><video:description>Love, happy tears and a dance floor full of energy. Watch this cinematic wedding film at The Terwa in Loppi, Finland, by Sonder Moments Weddings.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/XGbWo8vvK0E</video:player_loc><video:publication_date>2026-11-21T10:34:22-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-films/seurasaaren-juhlatalo-wedding-film/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/I8D0XdR3MyQ/maxresdefault.jpg</video:thumbnail_loc><video:title>Seurasaaren Juhlatalo wedding film, Helsinki</video:title><video:description>A ferry ride, a wooden church and Helan går. Watch this Finnish wedding film at Seurasaaren Juhlatalo in Helsinki, by Sonder Moments Weddings.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/I8D0XdR3MyQ</video:player_loc><video:publication_date>2026-11-21T12:10:56-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-films/suomenlinna-wedding-film/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/cyn8d7gmHCw/maxresdefault.jpg</video:thumbnail_loc><video:title>Suomenlinna wedding highlights film, Helsinki</video:title><video:description>Watch a four-minute wedding highlights film from Suomenlinna, Helsinki. Cinematic wedding videography by Sonder Moments Weddings.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/cyn8d7gmHCw</video:player_loc><video:publication_date>2025-09-29T06:46:46-07:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-films/valley-side-barn-wedding-film/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/hendinLY4-M/maxresdefault.jpg</video:thumbnail_loc><video:title>Valley Side Barn wedding film, Tiverton</video:title><video:description>From a dating app to an August wedding in the English countryside. Watch the Valley Side Barn wedding film in Tiverton by Sonder Moments Weddings.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/hendinLY4-M</video:player_loc><video:publication_date>2026-11-21T11:29:46-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-films/terwa-wedding-party-reel/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/67gLO_u0628/maxresdefault.jpg</video:thumbnail_loc><video:title>The Terwa wedding party reel, Loppi</video:title><video:description>A 58-second wedding party reel from The Terwa in Loppi. Dancing, laughter and the energy of a celebration captured by Sonder Moments Weddings.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/67gLO_u0628</video:player_loc><video:publication_date>2026-11-22T07:38:59-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-films/hotel-pier-4-bridal-film/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/-OtFJqj4MxU/maxresdefault.jpg</video:thumbnail_loc><video:title>Bridal inspiration at Solo Sokos Hotel Pier 4, Helsinki</video:title><video:description>A 52-second bridal inspiration film at Solo Sokos Hotel Pier 4 in Helsinki. A glimpse of wedding-morning anticipation by Sonder Moments Weddings.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/-OtFJqj4MxU</video:player_loc><video:publication_date>2026-11-22T06:50:15-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/en/wedding-films/suomenlinna-wedding-trailer/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/tpiBjKeqpUQ/maxresdefault.jpg</video:thumbnail_loc><video:title>Suomenlinna wedding trailer, Helsinki</video:title><video:description>A 36-second wedding trailer from Suomenlinna, Helsinki. Watch this short film, then explore the longer wedding highlights by Sonder Moments Weddings.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/tpiBjKeqpUQ</video:player_loc><video:publication_date>2025-10-20T02:41:18-07:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavideot/terwa-haavideo/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/XGbWo8vvK0E/maxresdefault.jpg</video:thumbnail_loc><video:title>Häävideo The Terwa, Loppi</video:title><video:description>Rakkautta, onnenkyyneleitä ja tanssilattia täynnä energiaa. Katso Sonder Momentsin elokuvallinen häävideo The Terwasta, Lopelta.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/XGbWo8vvK0E</video:player_loc><video:publication_date>2026-11-21T10:34:22-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavideot/seurasaaren-juhlatalo-haavideo/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/I8D0XdR3MyQ/maxresdefault.jpg</video:thumbnail_loc><video:title>Häävideo Seurasaaren Juhlatalolla, Helsinki</video:title><video:description>Lauttamatka, puukirkko ja Helan går. Katso Sonder Momentsin häävideo Seurasaaren Juhlatalolta Helsingistä ja palaa päivän tunnelmaan.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/I8D0XdR3MyQ</video:player_loc><video:publication_date>2026-11-21T12:10:56-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavideot/suomenlinna-haavideo/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/cyn8d7gmHCw/maxresdefault.jpg</video:thumbnail_loc><video:title>Häävideo Suomenlinnassa, Helsinki</video:title><video:description>Katso neljän minuutin häävideo Suomenlinnasta Helsingistä. Elokuvallinen häätarina ja päivän tunnelma, kuvaajana Sonder Moments Weddings.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/cyn8d7gmHCw</video:player_loc><video:publication_date>2025-09-29T06:46:46-07:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavideot/valley-side-barn-haavideo/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/hendinLY4-M/maxresdefault.jpg</video:thumbnail_loc><video:title>Häävideo Valley Side Barnissa, Tiverton</video:title><video:description>Deittisovelluksesta elokuisiin häihin Englannin maaseudulle. Katso Sonder Momentsin häävideo Valley Side Barnista, Tivertonista.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/hendinLY4-M</video:player_loc><video:publication_date>2026-11-21T11:29:46-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavideot/terwa-haareivit/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/67gLO_u0628/maxresdefault.jpg</video:thumbnail_loc><video:title>Hääreivit The Terwa, Loppi</video:title><video:description>The Terwan hääreivit Lopella: 58 sekuntia tanssia, naurua ja juhlan energiaa. Katso Sonder Momentsin lyhyt häävideo.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/67gLO_u0628</video:player_loc><video:publication_date>2026-11-22T07:38:59-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavideot/hotelli-pier-4-morsiusvideo/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/-OtFJqj4MxU/maxresdefault.jpg</video:thumbnail_loc><video:title>Morsiusunelmia Solo Sokos Hotel Pier 4:ssä, Helsinki</video:title><video:description>Morsiusunelmia Solo Sokos Hotel Pier 4:ssä Helsingissä. Katso 52 sekunnin morsiusvideo ja pieni kurkistus hääaamun tunnelmaan.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/-OtFJqj4MxU</video:player_loc><video:publication_date>2026-11-22T06:50:15-08:00</video:publication_date></video:video></url>
+  <url><loc>https://sondermomentsphotography.com/fi/haavideot/suomenlinna-haatraileri/</loc><video:video><video:thumbnail_loc>https://i.ytimg.com/vi/tpiBjKeqpUQ/maxresdefault.jpg</video:thumbnail_loc><video:title>Häätraileri Suomenlinnassa, Helsinki</video:title><video:description>36 sekunnin häätraileri Suomenlinnasta Helsingistä. Katso lyhyt häävideo ja tutustu myös pidempään Sonder Momentsin hääelokuvaan.</video:description><video:player_loc>https://www.youtube-nocookie.com/embed/tpiBjKeqpUQ</video:player_loc><video:publication_date>2025-10-20T02:41:18-07:00</video:publication_date></video:video></url>
 </urlset>
