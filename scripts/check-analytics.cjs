@@ -5,6 +5,15 @@ const path = require('node:path');
 const vm = require('node:vm');
 const source = fs.readFileSync(path.join(__dirname, '../js/analytics.js'), 'utf8');
 
+// Deployments may serve the source tree directly. Every script linked as a
+// classic script must parse in that mode, not just after Webpack bundles it.
+for (const directory of ['js', 'dist/js']) {
+  for (const file of ['app.js', 'analytics.js']) {
+    const target = path.join(__dirname, '..', directory, file);
+    assert.doesNotThrow(() => new vm.Script(fs.readFileSync(target, 'utf8'), { filename: target }));
+  }
+}
+
 function preview(url, canonical, flagged = false) {
   const scripts = [];
   const window = { location: new URL(url), __WEDDINGS_PREVIEW__: flagged };

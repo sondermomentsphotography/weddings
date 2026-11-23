@@ -9,7 +9,7 @@
   "license": "",
   "author": "",
   "scripts": {
-    "test": "python3 scripts/check-site.py && node scripts/check-analytics.cjs",
+    "test": "python3 scripts/check-site.py && node scripts/check-analytics.cjs && node scripts/check-contact.cjs",
     "start": "webpack serve --open --config webpack.config.dev.js",
     "build": "npm run generate && webpack --config webpack.config.prod.js",
     "generate": "python3 scripts/build-pages.py",

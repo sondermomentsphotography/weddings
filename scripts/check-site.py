@@ -47,6 +47,8 @@ for path in files:
     assert page.find('meta',name='description'), f'{relative}: no description'
     assert page.find('meta',name='robots',content='index,follow')
     assert page.scripts and page.scripts[0]['@graph'], f'{relative}: invalid schema'
+    for script in ['app.js', 'analytics.js']:
+        assert page.find('script',src='/js/'+script), f'{relative}: missing {script}'
     assert len(page.find('link',rel='alternate'))==3
     ids=[a['id'] for _,a in page.tags if 'id' in a]
     assert len(ids)==len(set(ids)), f'{relative}: duplicate IDs'

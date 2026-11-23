@@ -12,6 +12,7 @@ module.exports = merge(common, {
         { from: 'fi', to: 'fi' },
         { from: 'img', to: 'img' },
         { from: 'css/weddings.css', to: 'css/weddings.css' },
+        { from: 'js/analytics.js', to: 'js/analytics.js' },
         { from: 'fonts', to: 'fonts' },
         { from: 'download', to: 'download' },
         { from: 'icon.svg', to: 'icon.svg' },
